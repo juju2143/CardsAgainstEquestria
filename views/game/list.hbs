@@ -4,23 +4,23 @@
         <div class="row">
             <div class="col-xs-1">
                 <button data-bind="click: loadGames, disable: loading">
-                    Refresh
+                    Rafraîchir
                 </button>
             </div>
 
             <div class="col-xs-11" data-bind="if: loading">
                 {{ajaxLoader}}
-                Loading list...
+                Chargement de la liste...
             </div>
 
             <div class="col-xs-11" data-bind="if: !loading()">
-                <span class="todo">filters/sorting</span>
+                <span class="todo">filtres/tri</span>
             </div>
         </div>
 
         <div data-bind="if: games().length == 0 && !loading()">
             <p>
-                No games found! <a href="/game/create">Start one?</a>
+                Aucune partie trouvée! <a href="/game/create">En créer une?</a>
             </p>
         </div>
 
@@ -34,7 +34,7 @@
                                 <h4 data-bind="text: title"></h4>
 
                                 <p>
-                                    <strong>Players:</strong>
+                                    <strong>Joueurs:</strong>
 
                                     <span data-bind="html: formatPlayers"></span>
                                 </p>
@@ -43,7 +43,7 @@
 
                         <div class="row">
                             <div class="col-xs-12">
-                                <strong>Sets:</strong>
+                                <strong>Paquets:</strong>
 
                                 <span data-bind="html: formatSets"></span>
                             </div>
@@ -67,12 +67,12 @@
                             <div class="button">
                                 {{#if user}}
                                     <button data-bind="enable: !full() && !$root.loading() && (!passworded() || password()), click: function () { $root.join($data); }">
-                                        Join
+                                        Rejoindre
                                     </button>
                                 {{else}}
                                     <a data-bind="enable: !full() && !$root.loading(), attr: { href: '/game/join/' + id() }"
                                        href="#" class="btn btn-default">
-                                        Join
+                                        Rejoindre
                                     </a>
                                 {{/if}}
                             </div>
@@ -92,7 +92,7 @@
                                     </div>
                                 {{else}}
                                     <div>
-                                        <input type="text" id="password" disabled value="Password required">
+                                        <input type="text" id="password" disabled value="Mot de passe requis">
                                     </div>
                                 {{/if}}
                             </div>

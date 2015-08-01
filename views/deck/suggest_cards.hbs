@@ -2,16 +2,16 @@
 
     {{#replace 'content'}}
         <h1>
-            Suggest cards for {{{deck.name}}}
+            Suggérer des cartes pour {{{deck.name}}}
             <small>
                 <a href="/deck/suggest">
-                    Return to overview
+                    Retour à la vue d'ensemble
                 </a>
             </small>
         </h1>
         {{#if deck.author}}
             <div class="alert alert-warning">
-                This deck is a suggestion by {{deck.author.name}} and not yet playable.
+                Ce paquet est une suggestion de {{deck.author.name}} et n'est pas encore jouable.
             </div>
         {{/if}}
         <p>
@@ -19,22 +19,22 @@
         </p>
 
         <div class="alert alert-warning">
-            By suggesting cards, you accept...
+            En suggérant des cartes, vous acceptez que...
             <ul>
                 <li>
-                    you have permission by referenced people or companies
+                    vous avez la permission des personnes ou compagnies référencées
                 </li>
                 <li>
-                    you do not retain any licensing rights on the card content
+                    vous ne conservez aucun droit de licence sur le contenu de la carte
                 </li>
                 <li>
-                    we can reject your suggestions for no reason
+                    nous pouvons rejetter vos suggestions pour aucune raison
                 </li>
                 <li>
-                    you will not be credited for any accepted cards
+                    vous n'allez pas être crédité pour toutes les cartes acceptées
                 </li>
             </ul>
-            We will remove your access to this function if you fail to subject to the rules.
+            Nous pourrons vous révoquer l'accès à cette fonction si vous vous ne soumettez pas aux règles.
         </div>
     {{/replace}}
 

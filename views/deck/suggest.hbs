@@ -1,34 +1,34 @@
 {{#extend 'layouts/default'}}
 
     {{#replace 'content'}}
-        <h1>Suggest cards and decks</h1>
+        <h1>Suggérer des cartes et paquets</h1>
         <p>
-            You can suggest up to 5 black and 20 white cards at any given time.<br/>
-            Suggestions can be cancelled or edited.
+            Vous pouvez suggérer jusqu'à 5 cartes noires et 20 cartes blanches à n'importe quel moment donné.<br/>
+            Les suggestions peuvent être annulés ou édités.
         </p>
         <p>
-            You can suggest one new deck.
+            Vous pouvez suggérer un nouveau paquet.
         </p>
 
         <p>
-            After your suggestions have been either accepted or rejected, you can add more.<br/>
-            <strong>Coming soon:</strong> You'll be notified by email when that happens, if your settings allow.
+            Après que vos suggestions ont été acceptées ou rejetées, vous pourrez en ajouter plus.<br/>
+            <strong>Bientôt:</strong> Vous allez être notifié par courriel quand ça va arriver, si vos paramètres le permet.
         </p>
 
         <div class="alert alert-warning">
-            Do not beg, spam or otherwise annoy editors and admins about your suggestions. We'll get to them eventually.
+            Ne pas supplier, spammer ou énerver les éditeurs et administrateurs à propos de vos suggestions. On va y arriver éventuellement.
         </div>
 
         <div class="alert alert-info">
-            Start by selecting a deck from the list below, you can then add cards to it.
+            Commencez par sélectionner un paquet dans la liste ci-dessous, ensuite vous pourrez y ajouter des cartes.
         </div>
 
         <h2>
-            Active decks
+            Paquets actifs
         </h2>
         <div class="row">
             <div class="col-xs-6">
-                <h3>Sets</h3>
+                <h3>Paquets</h3>
                 {{#each decks.sets}}
                     <div class="row">
                         <div class="col-xs-12">
@@ -59,11 +59,11 @@
         </div>
 
         <h2>
-            Suggested decks
+            Paquets suggérés
         </h2>
         <div class="row">
             <div class="col-xs-6">
-                <h3>Sets</h3>
+                <h3>Paquets</h3>
                 {{#each suggestedDecks.sets}}
                     <div class="row">
                         <div class="col-xs-12">
@@ -79,7 +79,7 @@
                 <div class="row">
                     <div class="col-xs-12">
                         <button>
-                            Add your own
+                            Ajouter le vôtre
                         </button>
                     </div>
                 </div>
@@ -94,7 +94,7 @@
                                 <strong>{{name}}</strong>
                             </a>
                             -
-                            {{description}} by {{author.name}}
+                            {{description}} par {{author.name}}
                         </div>
                     </div>
                 {{/each}}
@@ -102,7 +102,7 @@
                 <div class="row">
                     <div class="col-xs-12">
                         <button>
-                            Add your own
+                            Ajouter le vôtre
                         </button>
                     </div>
                 </div>
@@ -110,19 +110,19 @@
         </div>
 
         <h2>
-            Your suggested cards
+            Vos cartes suggérées
         </h2>
         <span class="help-block">
-            Click a card to edit it
+            Cliquez sur une carte pour l'éditer
         </span>
         <div class="row">
             <div class="col-xs-12">
-                black cards go here
+                cartes noires vont ici
             </div>
         </div>
         <div class="row">
             <div class="col-xs-12">
-                white cards go here
+                cartes blanches vont ici
             </div>
         </div>
     {{/replace}}

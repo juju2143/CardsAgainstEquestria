@@ -3,10 +3,10 @@
         <div class="modal-content">
 
             <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                <button type="button" class="close" data-dismiss="modal" aria-label="Fermer"><span
                         aria-hidden="true">&times;</span></button>
                 <h4 class="modal-title">
-                    Manage players and bans
+                    Gérer joueurs et bans
                 </h4>
             </div>
 
@@ -14,7 +14,7 @@
 
                 <div class="row">
                     <div class="col-xs-6">
-                        <h4>Current players</h4>
+                        <h4>Joueurs actuels</h4>
                         <ul>
                             <!-- ko foreach: players -->
                             <li class="player">
@@ -22,10 +22,10 @@
                                 <!-- ko if: (_.isFunction($root.game().host) ? $root.game().host() : $root.game().host).id != id -->
                                 &nbsp;
                                 <button class="btn btn-sm btn-default" data-bind="click: $root.kick">
-                                    Kick
+                                    Expulser
                                 </button>
                                 <button class="btn btn-sm btn-danger" data-bind="click: $root.ban">
-                                    Ban
+                                    Bannir
                                 </button>
                                 <!-- /ko -->
                             </li>
@@ -34,14 +34,14 @@
                     </div>
 
                     <div class="col-xs-6">
-                        <h4>Saved bans</h4>
+                        <h4>Bans enregistrés</h4>
                         <ul>
                             <!-- ko foreach: $root.bans -->
                             <li class="player">
                                 <strong data-bind="text: name"></strong>
                                 &nbsp;
                                 <button class="btn btn-sm btn-default" data-bind="click: $root.unban">
-                                    Unban
+                                    Débannir
                                 </button>
                             </li>
                             <!-- /ko -->
@@ -54,29 +54,29 @@
                     <div class="col-xs-12">
                         <h4>Import / export ban list</h4>
                                 <span class="help-block">
-                                    The ban list code is automatically updated when you make changes above.
+                                    Le code de la liste des bans est automatiquement mis à jour quand vous faites des changements ci-dessus.
                                 </span>
                         <textarea class="ban-export"></textarea>
 
                         <div class="pull-right">
                             <button class="btn btn-default">
                                 <span class="glyphicon glyphicon-import"></span>
-                                Import
+                                Importer
                             </button>
                             <button class="btn btn-default">
                                 <span class="glyphicon glyphicon-floppy-disk"></span>
-                                Save
+                                Enregistrer
                             </button>
                         </div>
 
                                 <span class="help-block">
-                                    Importing a ban list code will replace all settings above.<br>
-                                    Be careful and consider copying the current code into a blank text file first.
+                                    Importer un code de la liste des bans va remplacer tous les paramètres ci-dessus.<br>
+                                    Faites attention et considérez copier le code actuel dans un fichier texte vide en premier.
                                 </span>
 
                                 <span class="help-block">
-                                    Saving will store a cookie containing the code on your current device.<br>
-                                    That saved list is automatically loaded each time you create a new game.
+                                    Enregistrer va stocker un témoin contenant le code sur votre appareil actuel.<br>
+                                    Cette liste enregistrée va être automatiquement chargée à chaque fois que vous créez une nouvelle partie.
                                 </span>
                     </div>
                 </div>
@@ -86,7 +86,7 @@
 
             <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal">
-                    Close
+                    Fermer
                 </button>
             </div>
         </div>

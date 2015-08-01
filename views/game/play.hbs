@@ -2,7 +2,7 @@
 
     {{#replace 'navLeft'}}
         <li>
-            <span class="navbar-title" data-bind="text: game().name">Loading...</span>
+            <span class="navbar-title" data-bind="text: game().name">Chargement...</span>
         </li>
 
         <!-- ko if: isHost() -->
@@ -10,7 +10,7 @@
         <li>
             <a href="#" data-toggle="modal" data-target="#game-settings-modal">
                 <span class="glyphicon glyphicon-wrench"></span>
-                Settings
+                Paramètres
             </a>
         </li>
         --}}
@@ -18,7 +18,7 @@
         <li>
             <a href="#" data-toggle="modal" data-target="#game-players-modal">
                 <span class="glyphicon glyphicon-user"></span>
-                Players
+                Joueurs
             </a>
         </li>
         <!-- /ko -->
@@ -28,7 +28,7 @@
         <!-- ko if: game().roundTimeLimit -->
         <li>
             <p class="navbar-text">
-                Time left:
+                Temps restant:
                 <span data-bind="text: timeLeft"></span>s
             </p>
         </li>
@@ -37,7 +37,7 @@
         <li>
             <a href="#" onclick="leaveGame()" title="Leave game">
                 <span class="glyphicon glyphicon-remove"></span>
-                Leave game
+                Quitter la partie
             </a>
         </li>
     {{/prepend}}
@@ -87,11 +87,11 @@
         <div class="confirm" data-bind="">
             <button class="btn-default"
                     data-bind="enable: selectedMove() && !selectedMoveSubmitted(), click: submitSelectedMove">
-                Confirm
+                Confirmer
             </button>
 
             <!-- ko if: !selectedMove() -->
-            Select the card<span data-bind="if: blackCard().pick > 1">s</span> you like the most.
+            Sélectionnez <span data-bind="if: blackCard().pick == 1">la</span><span data-bind="if: blackCard().pick > 1">les</span> carte<span data-bind="if: blackCard().pick > 1">s</span> vous aimez le plus.
             <!-- /ko -->
         </div>
         <!-- /ko -->
@@ -100,15 +100,15 @@
         <div class="confirm" data-bind="">
             <button class="btn-default"
                     data-bind="enable: move().cards().length == blackCard().pick && !move().confirmed(), click: move().submit">
-                Confirm
+                Confirmer
             </button>
 
             <!-- ko if: move().cards().length < blackCard().pick -->
             <!-- ko if: blackCard().pick > 1 -->
-            Select <span data-bind="text: blackCard().pick"></span> cards in the order you would like to play them.
+            Sélectionnez <span data-bind="text: blackCard().pick"></span> cartes dans l'ordre que vous voulez les jouer.
             <!-- /ko -->
             <!-- ko if: blackCard().pick <= 1 -->
-            Select a card to play.
+            SÉlectionnez une carte pour jouer.
             <!-- /ko -->
             <!-- /ko -->
         </div>
@@ -133,16 +133,16 @@
 
         <!-- ko if: ended -->
         <div class="text-center">
-            <h4>Game ended</h4>
+            <h4>Partie finie</h4>
 
             <p>
-                <strong>Winner:</strong> <span data-bind="text: winner().name"></span>
+                <strong>Gagnant:</strong> <span data-bind="text: winner().name"></span>
             </p>
 
             <!--ko if: $root.isHost() -->
             <p>
                 <button data-bind="click: resetGame">
-                    Start a new game
+                    Démarrer une nouvelle partie
                 </button>
             </p>
             <!-- /ko -->
@@ -153,24 +153,24 @@
 
         <!-- ko if: players().length < 3 -->
         <div class="text-center">
-            <h4>Game ended</h4>
+            <h4>Partie finie</h4>
 
-            <p>(Not enough players)</p>
+            <p>(Pas assez de joueurs)</p>
         </div>
         <!-- /ko -->
 
         <div class="row">
             <div id="scoreboard">
                 <h4>
-                    Scoreboard (to <span data-bind="text: game().scoreLimit"></span>)
+                    Tableau des scores (jusqu'à <span data-bind="text: game().scoreLimit"></span>)
                     <span class="pull-right">
-                        Round <span data-bind="text: round"></span>
+                        Ronde <span data-bind="text: round"></span>
                     </span>
 
                     <!-- ko if: isHost() -->
                     <small>
                         <a href="#" data-toggle="modal" data-target="#game-players-modal">
-                            Manage bans
+                            Gérer les bans
                         </a>
                     </small>
                     <!-- /ko -->
@@ -186,10 +186,10 @@
                             <!-- ko if: $root.isHost() && $root.game().host.id != id  -->
                             <div class="pull-right">
                                 <button class="btn btn-xs btn-default" data-bind="click: $root.kick">
-                                    Kick
+                                    Expulser
                                 </button>
                                 <button class="btn btn-xs btn-danger" data-bind="click: $root.ban">
-                                    Ban
+                                    Bannir
                                 </button>
                             </div>
                             <!-- /ko -->

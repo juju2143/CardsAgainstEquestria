@@ -3,10 +3,10 @@
     {{#replace 'content'}}
         {{#if deck}}
             <h1>
-                Cards of {{deck.name}}
+                Cartes de {{deck.name}}
                 <small>
                     <a href="/info/cards">
-                        Reset filter
+                        Remettre le filtre à zéro
                     </a>
                 </small>
             </h1>
@@ -16,18 +16,18 @@
             </p>
 
             <p>
-                <a href="#white">White cards</a>
+                <a href="#white">Cartes blanches</a>
             </p>
 
-            <h2 id="black">Black cards</h2>
+            <h2 id="black">Cartes noires</h2>
             <table class="table table-condensed table-striped table-hover">
                 <thead>
                 <tr>
                     <th>
                         <span class="glyphicon glyphicon-paperclip">&nbsp;</span>
                     </th>
-                    <th>Text</th>
-                    <th>Pick</th>
+                    <th>Texte</th>
+                    <th>Piger</th>
                 </tr>
                 </thead>
                 <tbody>
@@ -35,7 +35,7 @@
                     <tr id="black-{{id}}">
                         <td>
                             <a href="/info/cards?{{../type}}={{../deck.id}}#black-{{id}}">
-                                Link
+                                Lien
                             </a>
                         </td>
                         <td>{{{text}}}</td>
@@ -46,9 +46,9 @@
             </table>
 
             <h2 id="white">
-                White cards
+                Cartes blanches
                 <small>
-                    <a href="#">Back to top</a>
+                    <a href="#">Retour au début</a>
                 </small>
             </h2>
             <table class="table table-condensed table-striped table-hover">
@@ -57,7 +57,7 @@
                     <th>
                         <span class="glyphicon glyphicon-paperclip">&nbsp;</span>
                     </th>
-                    <th>Text</th>
+                    <th>Texte</th>
                 </tr>
                 </thead>
                 <tbody>
@@ -65,7 +65,7 @@
                     <tr id="white-{{id}}">
                         <td>
                             <a href="/info/cards?{{../type}}={{../deck.id}}#white-{{id}}">
-                                Link
+                                Lien
                             </a>
                         </td>
                         <td>{{{text}}}</td>
@@ -75,22 +75,22 @@
             </table>
 
             <p>
-                <a href="#">Back to top</a>
+                <a href="#">Retour au début</a>
                 -
                 <a href="#white">
-                    White cards
+                    Cartes blanches
                 </a>
             </p>
 
         {{else}}
-            <h1>Cards</h1>
+            <h1>Cartes</h1>
             <p>
-                Select a deck to view its cards.
+                Sélectionnez un paquet pour voir ses cartes.
             </p>
 
             <div class="row">
                 <div class="col-xs-6">
-                    <h2>Sets</h2>
+                    <h2>Paquets</h2>
                     {{#each sets}}
                         <div class="row">
                             <div class="col-xs-12">

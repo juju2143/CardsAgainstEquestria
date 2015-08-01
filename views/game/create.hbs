@@ -2,7 +2,7 @@
 
     {{#replace 'content'}}
         <form id="create" method="post" class="form-horizontal">
-            <h1>Host a new game</h1>
+            <h1>Héberger une nouvelle partie</h1>
 
             {{#if errors}}
                 {{#each errors}}
@@ -12,23 +12,23 @@
                 {{/each}}
 
                 <a href="/games">
-                    Join another game
+                    Rejoindre une autre partie
                 </a>
             {{else}}
                 <p>
-                    Create your own game and invite people to join you! Yay!
+                    Créez votre propre partie et invitez du monde à se joindre à vous! Yé!
                 </p>
             {{/if}}
 
             {{#unless errors}}
-                <input type="submit" id="submit" value="Create game">
+                <input type="submit" id="submit" value="Créer une partie">
             {{/unless}}
 
             {{#if userGames}}
                 <br/><br/>
 
                 <h4>
-                    Can't find your own games anymore? Silly. Here, have a list:
+                    Vous ne trouvez plus vos propres parties? Quel bêta. Tenez, voilà une liste:
                 </h4>
 
                 <ul>

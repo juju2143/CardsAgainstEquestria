@@ -1,30 +1,30 @@
 {{#extend 'layouts/default'}}
 
     {{#replace 'content'}}
-        <h1>Register</h1>
+        <h1>S'enregistrer</h1>
         <p>
-            Registering allows you to protect your name with a password.
+            S'enregistrer vous permet de protéger votre nom avec un mot de passe.
         </p>
         <p>
-            You can decide if you want to receive occasional (once a year?) emails regarding site updates.
+            Vous pouvez décider si vous voulez recevoir des emails occasionellement (une fois par année?) à propos des mises à jour du site.
             <br/>
-            Your email will not be given to third parties and is only used for password recovery.
+            Votre email ne sera pas donné à des tiers et sera seulement utilisé à fins de recouvrement de mot de passe.
         </p>
 
         <div class="alert alert-warning">
-            <strong>Careful:</strong>
-            You will not be able to change your name after registering (at least for now).<br/>
-            If you want to change it, do it now by logging out and picking a different one.
+            <strong>Attention:</strong>
+            Vous ne pourrez pas changer votre nom après vous être enregistré (au moins pour maintenant).<br/>
+            Si vous voulez le changer, faites-le maintenant en vous déconnectant et en prenant un nom différent.
         </div>
 
         <div class="alert alert-info">
-            <strong>Please note:</strong>
-            Password recovery is currently not implemented. Don't screw up. :)
+            <strong>Notez bien:</strong>
+            Le reccouvrement de mot de passe n'est pas encore implémenté. Plantez-vous pas. :)
         </div>
 
         <div class="alert alert-info">
-            <strong>Please note:</strong>
-            Changing settings is currently not implemented.
+            <strong>Notez bien:</strong>
+            Changer les paramètres n't présentement pas implémenté.
         </div>
 
         <form autocomplete="on" method="post" action="/user/register" id="register" class="form-horizontal">
@@ -44,7 +44,7 @@
                     <div class="checkbox">
                         <label>
                             <input type="checkbox" checked id="allowEmails" name="allowEmails"
-                                   data-bind="checked: allowEmails"> Allow emails
+                                   data-bind="checked: allowEmails"> Permettre les emails
                         </label>
                     </div>
                 </div>
@@ -52,7 +52,7 @@
 
             <div class="form-group" data-bind="css: { 'has-error': passwordError() || passwordConfirmError() }">
                 <label for="password" class="col-xs-2 control-label">
-                    Password
+                    Mot de passe
                 </label>
 
                 <div class="col-xs-4">
@@ -63,7 +63,7 @@
                 </div>
 
                 <label for="password-confirm" class="col-xs-2 control-label">
-                    Confirm
+                    Confirmer
                 </label>
 
                 <div class="col-xs-4">

@@ -3,11 +3,11 @@
     {{#replace 'content'}}
         <noscript>
             <h2 class="has-error">
-                JavaScript required
+                JavaScript requis
             </h2>
 
             <p class="has-error">
-                JavaScript has to be enabled to play this game.
+                JavaScript doit être activé pour jouer à ce jeu.
             </p>
         </noscript>
 
@@ -23,35 +23,35 @@
                 {{#if user}}
                     <a href="/game/create">
                         <h2 class="button-play">
-                            <span class="glyphicon glyphicon-plus"></span>&nbsp;Create
+                            <span class="glyphicon glyphicon-plus"></span>&nbsp;Créer
                         </h2>
                     </a>
                 {{/if}}
 
                 <a href="/games">
                     <h2 class="button-play">
-                        <span class="glyphicon glyphicon-ok"></span>&nbsp;Play!
+                        <span class="glyphicon glyphicon-ok"></span>&nbsp;Jouer!
                     </h2>
                 </a>
 
                 {{#unless user}}
-                    <h2>Log in</h2>
+                    <h2>Se connecter</h2>
 
                     <p>
-                        You will not be able to play without logging in.<br/>
-                        Logging in is free and painless - just select a name!
+                        Vous ne serez pas capable de jouer sans être enregistré.<br/>
+                        S'enregistrer est gratuit et sans douleur - vous n'avez qu'à sélectionner un nom!
                     </p>
 
                     <form autocomplete="on" method="post" id="login" action="/user/login" class="form-inline">
                         <div class="form-group">
-                            <label class="sr-only" for="name">Name:</label>
-                            <input type="text" class="form-control" id="name" name="name" placeholder="Name">
+                            <label class="sr-only" for="name">Nom:</label>
+                            <input type="text" class="form-control" id="name" name="name" placeholder="Nom">
                         </div>
 
                         <div class="form-group" {{#unless loginFailed}}style="display: none;"{{/unless}}>
-                            <label class="sr-only" for="password">Password:</label>
+                            <label class="sr-only" for="password">Mot de passe:</label>
                             <input type="password" class="form-control" id="password" name="password"
-                                   placeholder="Password">
+                                   placeholder="Mot de passe">
                         </div>
 
                         <input type="hidden" id="redirect" name="redirect" value="{{{loginRedirect}}}">
@@ -70,7 +70,7 @@
                     </ul>
                 {{/each}}
 
-                <a href="/info/changes">Full change log</a>
+                <a href="/info/changes">Changelog complet</a>
 
             </div>
 
@@ -83,8 +83,7 @@
                         {{> watermarkIcon}}
 
                         <div class="watermark">
-                            <a href="/info/cards?expansion={{../valentine.deckId}}">Shipping&nbsp;<span
-                                    class="icon-heart"></span></a>
+                            <a href="/info/cards?set={{../valentine.deckId}}">QCBN</a>
                         </div>
                     </div>
                 {{/each}}
@@ -96,21 +95,21 @@
         <h2>About / Licenses</h2>
 
         <p>
-            Cards Against Equestria is a <a href="http://cardsagainsthumanity.com/">Cards Against Humanity</a>
-            clone.<br/>
-            Cards Against Humanity is a trademark of Cards Against Humanity LLC. Cards Against Humanity LLC does not
-            endorse or sponsor this clone.
+            Cards Against Québec Bronies et Cards Against Equestria sont un clone de
+            <a href="http://cardsagainsthumanity.com/">Cards Against Humanity</a>.<br/>
+            Cards Against Humanity est une marque de commerce de Cards Against Humanity LLC.
+            Ce clone n'est pas approuvé ou commandité par Cards Against Humanity LLC.
         </p>
         <p>
-            <a href="http://cardsagainsthumanity.com/">Cards Against Humanity</a> is available under a
-            <a href="http://creativecommons.org/licenses/by-nc-sa/2.0/">Creative Commons BY-NC-SA 2.0 license</a>.
+            <a href="http://cardsagainsthumanity.com/">Cards Against Humanity</a> est disponible sous une licence
+            <a href="http://creativecommons.org/licenses/by-nc-sa/2.0/">Creative Commons BY-NC-SA 2.0</a>.
         </p>
 
         <p>
-            Cards Against Equestria is licensed under a
-            <a href="http://creativecommons.org/licenses/by-nc-sa/2.0/">Creative Commons BY-NC-SA 2.0 license</a>
-            and was written by <a href="/info/about">Rylius</a>.
-            Source code is available on <a href="https://github.com/Rylius/CardsAgainstEquestria">GitHub</a>.
+            Cards Against Equestria est disponible sous une 
+            <a href="http://creativecommons.org/licenses/by-nc-sa/2.0/">license Creative Commons BY-NC-SA 2.0</a>,
+            est écrit par <a href="/info/about">Rylius</a> et traduit par <a href="/info/about">juju2143</a>.
+            Le code source est disponible sur <a href="https://github.com/juju2143/CardsAgainstEquestria">GitHub</a>.
         </p>
     {{/replace}}
 
