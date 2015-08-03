@@ -9,7 +9,7 @@ var model = require('../lib/model');
 var suggest = function (req, res) {
     var user = users.get(req.session.user.id);
     if (!user.registered) {
-        req.flash('error', 'You have to be registered to suggest cards.');
+        req.flash('error', 'Vous devez être inscrits pour suggérer des cartes.');
         res.redirect('/user/register');
         return;
     }
@@ -32,13 +32,13 @@ var suggest = function (req, res) {
             }
 
             if (!deck) {
-                req.flash('error', 'That deck does not exist');
+                req.flash('error', 'Ce paquet n\'existe pas');
                 res.redirect('/deck/suggest');
                 return;
             }
 
             res.render('deck/suggest_cards', {
-                title: 'Suggest cards for ' + deck.name,
+                title: 'Suggérer une carte pour ' + deck.name,
                 deck: deck
             });
             return;
@@ -46,13 +46,13 @@ var suggest = function (req, res) {
             model.DeckSuggestion.get(deckId, function (err, deck) {
                 if (err) {
                     log.debug('Failed to load deck ' + deckId + ': ' + err);
-                    req.flash('error', 'That deck does not exist');
+                    req.flash('error', 'Ce paquet n\'existe pas');
                     res.redirect('/deck/suggest');
                     return;
                 }
 
                 res.render('deck/suggest_cards', {
-                    title: 'Suggest cards for ' + deck.name,
+                    title: 'Suggérer une carte pour ' + deck.name,
                     deck: deck
                 });
             });
@@ -68,7 +68,7 @@ var suggest = function (req, res) {
     model.DeckSuggestion.find({}, 'id', function (err, suggestedDecks) {
         if (err) {
             log.warn('Failed to load deck suggestions: ' + err);
-            var message = 'Internal error occured while retrieving list of suggested decks';
+            var message = 'Une erreur interne est survenue lors de la recherche de la liste des paquets suggérés';
             if (res.locals.error) {
                 res.locals.push(message);
             } else {

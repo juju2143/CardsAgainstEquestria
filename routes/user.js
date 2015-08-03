@@ -12,7 +12,7 @@ var model = require('./../lib/model');
 
 var login = function (req, res) {
     if (req.session.user) {
-        req.flash('error', 'You\'re already logged in!');
+        req.flash('error', 'Vous êtes déjà connecté !');
         res.redirect('/');
         return;
     }
@@ -41,7 +41,7 @@ var logout = function (req, res) {
         users.logout(req.session.user.id, req.session);
     }
 
-    req.flash('success', 'Logged out!');
+    req.flash('success', 'Déconnecté !');
     res.redirect('/');
 };
 
@@ -64,7 +64,7 @@ var doRegister = function (req, res) {
         || !/^[a-z0-9!#$%&'*+/=?^_{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?$/i.test(req.body.email)
         || !req.body.password || !req.body.password.length || req.body.password.length >= 64) {
 
-        req.flash('error', 'Invalid form input');
+        req.flash('error', 'Entrée de formulaire invalide');
         res.redirect('/user/register');
         return;
     }
@@ -74,14 +74,14 @@ var doRegister = function (req, res) {
     model.User.find({email: req.body.email}, 1, function (err, result) {
         if (err) {
             log.warn('Register: Failed to find users: ' + err);
-            req.flash('error', 'Internal error, try again or complain');
+            req.flash('error', 'Erreur interne. Réessayez ou plaignez-vous');
             res.redirect('/user/register');
             return;
         }
 
         if (result.length) {
             log.trace('Register: ' + user.id + '/' + user.name + ': Email already exists: ' + req.body.email);
-            req.flash('error', 'Email already in use');
+            req.flash('error', 'Courriel déjà existant');
             res.redirect('/user/register');
             return;
         }
@@ -104,15 +104,15 @@ var doRegister = function (req, res) {
             function (err) {
                 if (err) {
                     log.warn('Register: Failed to insert user: ' + err);
-                    req.flash('error', 'Internal error, try again or complain');
+                    req.flash('error', 'Erreur interne. Réessayez ou plaignez-vous');
                     res.redirect('/user/register');
                     return;
                 }
 
                 req.session.user.registered = true;
 
-                req.flash('success', 'Successfully registered!');
-                req.flash('info', 'Please keep in mind you have to use your password when logging in from now on.');
+                req.flash('success', 'Inscription réussie !');
+                req.flash('info', 'Veuillez gardez à l\'esprit que vous devrez utiliser votre mot de passe à partir de maintenant');
                 res.redirect('/');
             });
     });
