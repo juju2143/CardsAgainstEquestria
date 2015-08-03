@@ -2,7 +2,7 @@
 
     {{#replace 'navLeft'}}
         <li>
-            <span class="navbar-title" data-bind="text: game().name">Chargement...</span>
+            <span class="navbar-title" data-bind="text: game().name">Chargement&hellip;</span>
         </li>
 
         <!-- ko if: isHost() -->
@@ -28,14 +28,14 @@
         <!-- ko if: game().roundTimeLimit -->
         <li>
             <p class="navbar-text">
-                Temps restant:
+                Temps restant :
                 <span data-bind="text: timeLeft"></span>s
             </p>
         </li>
         <!-- /ko -->
 
         <li>
-            <a href="#" onclick="leaveGame()" title="Leave game">
+            <a href="#" onclick="leaveGame()" title="Quitter la partie">
                 <span class="glyphicon glyphicon-remove"></span>
                 Quitter la partie
             </a>
@@ -108,7 +108,7 @@
             Sélectionnez <span data-bind="text: blackCard().pick"></span> cartes dans l'ordre que vous voulez les jouer.
             <!-- /ko -->
             <!-- ko if: blackCard().pick <= 1 -->
-            SÉlectionnez une carte pour jouer.
+            SÉlectionnez une carte à jouer.
             <!-- /ko -->
             <!-- /ko -->
         </div>
@@ -133,10 +133,10 @@
 
         <!-- ko if: ended -->
         <div class="text-center">
-            <h4>Partie finie</h4>
+            <h4>Partie terminée</h4>
 
             <p>
-                <strong>Gagnant:</strong> <span data-bind="text: winner().name"></span>
+                <strong>Gagnant :</strong> <span data-bind="text: winner().name"></span>
             </p>
 
             <!--ko if: $root.isHost() -->
@@ -153,7 +153,7 @@
 
         <!-- ko if: players().length < 3 -->
         <div class="text-center">
-            <h4>Partie finie</h4>
+            <h4>Partie terminée</h4>
 
             <p>(Pas assez de joueurs)</p>
         </div>
@@ -162,7 +162,7 @@
         <div class="row">
             <div id="scoreboard">
                 <h4>
-                    Tableau des scores (jusqu'à <span data-bind="text: game().scoreLimit"></span>)
+                    Tableau des points (jusqu'à <span data-bind="text: game().scoreLimit"></span>)
                     <span class="pull-right">
                         Ronde <span data-bind="text: round"></span>
                     </span>
@@ -198,7 +198,7 @@
 
                     <div class="row">
                         <div class="col-xs-7">
-                            <span data-bind="text: points"></span> Awesome Point<span
+                            <span data-bind="text: points"></span>Awesome Point<span
                                 data-bind="if: points() != 1">s</span>
                         </div>
                         <div class="col-xs-5 text-right">
@@ -212,11 +212,11 @@
             <div id="chats">
                 <ul id="chat">
                     <li>
-                        <a href="#chat-global" data-toggle="tab">Global Chat</a>
+                        <a href="#chat-global" data-toggle="tab">Chat global</a>
                     </li>
 
                     <li class="active">
-                        <a href="#chat-game" data-toggle="tab">Game Chat</a>
+                        <a href="#chat-game" data-toggle="tab">Chat de la partie</a>
                     </li>
                 </ul>
 
@@ -237,7 +237,7 @@
 
                                 <span class="input-group-btn">
                                     <button type="button" class="btn btn-default" data-bind="click: chat().send">
-                                        Send
+                                        Envoyer
                                     </button>
                                 </span>
                             </div>
@@ -327,7 +327,7 @@
                     interruptListen();
                 });
 
-                $.blockUI.defaults.message = 'You are the card czar.';
+                $.blockUI.defaults.message = 'Vous êtes le Czar.';
                 $.blockUI.defaults.css.border = 'none';
                 $.blockUI.defaults.css.padding = 10;
                 $.blockUI.defaults.css.cursor = 'default';
@@ -378,7 +378,7 @@
                         method: 'post',
                         error: function (request, error, status) {
                             console.warn('Failed to request state: ' + error + ': ' + status);
-                            model.chat().showError('Failed to request game state! Trying again in 5 seconds.');
+			    model.chat().showError('Impossible de récupérer l'état du jeu ! Nouvelle tentative dans 5 secondes.');
                             setTimeout(getState, 5000);
                         }
                     });
