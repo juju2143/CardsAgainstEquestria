@@ -17,7 +17,7 @@ var index = function (req, res) {
     });
 
     res.render('admin/index', {
-        title: 'Fancy admin overview',
+        title: 'Vue d\'ensemble des admins de luxe',
         users: JSON.stringify(usersJson), games: JSON.stringify(gamesJson),
         process: JSON.stringify({
             version: process.version,
@@ -47,7 +47,7 @@ var user = function (req, res) {
 
     Model.User.get(id, function (err, preyDB) {
         if (!prey && !preyDB) {
-            req.flash('error', 'User not found');
+            req.flash('error', 'Utilisateur introuvable');
             res.redirect('/admin');
             return;
         }
@@ -62,7 +62,7 @@ var user = function (req, res) {
 var game = function (req, res) {
     var game = Game.get(req.params.game);
     if (!game) {
-        req.flash('error', 'Game not found');
+        req.flash('error', 'Partie introuvable');
         res.redirect('/admin');
         return;
     }
