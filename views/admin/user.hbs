@@ -14,10 +14,10 @@
                 <div class="col-xs-6">
                     <div class="list-group">
                         <div class="list-group-item">
-                            IP: {{prey.clientData.ip}}
+                            IP : {{prey.clientData.ip}}
                         </div>
                         <div class="list-group-item">
-                            User-Agent: {{prey.clientData.userAgent}}
+                            User-Agent : {{prey.clientData.userAgent}}
                         </div>
                     </div>
                 </div>
@@ -30,23 +30,23 @@
                             {{#unless preyDB.allow_emails}}
                             <s>
                             {{/unless}}
-                            Email: {{preyDB.email}}
+                            Courriel : {{preyDB.email}}
                             {{#unless preyDB.allow_emails}}
                             </s>
                             {{/unless}}
                         </div>
                         <div class="list-group-item">
-                            Registered: {{preyDB.date_registered}}
+                            Inscrit le : {{preyDB.date_registered}}
                         </div>
                         <div class="list-group-item">
-                            Last login: {{preyDB.last_login}}
+                            Dernière connexion : {{preyDB.last_login}}
                         </div>
                     </div>
                 </div>
             {{/if}}
         </div>
 
-        <h2>Games</h2>
+        <h2>Parties</h2>
         {{#if games}}
             <ul>
                 {{#each games}}
@@ -59,7 +59,7 @@
             </ul>
         {{else}}
             <div class="alert alert-info">
-                User is not playing
+                Le joueur n'est pas en train de jouer
             </div>
         {{/if}}
     {{/replace}}

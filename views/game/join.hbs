@@ -13,7 +13,7 @@
                         <p>
                             <strong>
                                 Joueurs (<span data-bind="text: players().length"></span>/<span
-                                    data-bind="text: playerLimit"></span>):
+                                    data-bind="text: playerLimit"></span>) :
                             </strong>
 
                             <span data-bind="html: formatPlayers"></span>
@@ -23,7 +23,7 @@
 
                 <div class="row">
                     <p class="col-xs-12">
-                        <strong>But:</strong>
+                        <strong>But :</strong>
 
                         <span data-bind="text: scoreLimit"></span>
                     </p>
@@ -31,7 +31,7 @@
 
                 <div class="row">
                     <div class="col-xs-12">
-                        <strong>Paquets:</strong>
+                        <strong>Paquets :</strong>
 
                         <span data-bind="html: model.formatSets"></span>
                     </div>
@@ -39,7 +39,7 @@
 
                 <div class="row">
                     <p class="col-xs-12">
-                        <strong>Expansions:</strong>
+                        <strong>Expansions :</strong>
 
                         <span data-bind="html: model.formatExpansions"></span>
                     </p>
@@ -70,7 +70,7 @@
             <div class="row">
                 <div class="col-xs-6">
                     <span class="help-block">
-                        Le mot de passe n'est seulement requis que si vous avez enregistré votre nom.
+                        Le mot de passe n'est requis que si vous avez enregistré votre nom.
                     </span>
                 </div>
             </div>
@@ -80,7 +80,7 @@
         <!-- ko if: game().passworded -->
         <div class="row">
             <div class="col-xs-4">
-                <label for="password" class="sr-only">Mot de passe de la partie:</label>
+                <label for="password" class="sr-only">Mot de passe de la partie : </label>
                 <input type="password" id="password" placeholder="Mot de passe de la partie" class="form-control"
                        data-bind="value: password, valueUpdate: 'afterkeydown', returnAction: join, disable: loading">
             </div>
@@ -99,7 +99,7 @@
         </div>
 
         {{#unless user}}
-            <h2>Qu'est-ce que c'est?</h2>
+            <h2>Qu'est-ce que c'est ?</h2>
 
             <div class="row">
                 <div class="col-xs-12 todo">

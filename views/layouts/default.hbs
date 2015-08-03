@@ -35,7 +35,7 @@
                     <li>
                         <a href="/games">
                             <span class="glyphicon glyphicon-ok"></span>
-                            Jouer!
+                            Jouer !
                         </a>
                     </li>
 
@@ -103,7 +103,7 @@
                                 {{#each themes}}
                                     <li{{#ifCond id '==' ../theme}} class="active"{{/ifCond}}>
                                         <a href="#" onclick="switchTheme('{{id}}')">
-                                            Thème: {{name}}
+                                            Thème : {{name}}
                                         </a>
                                     </li>
                                 {{/each}}
@@ -179,7 +179,7 @@
         {{/each}}
 
         {{#block 'content'}}
-            This page appears to be empty...
+            Cette page semble vide
         {{/block}}
 
     </div>
@@ -202,7 +202,7 @@
 
     <div class="container links">
         {{#block 'footer'}}
-            <a href="/info/about">About</a>
+            <a href="/info/about">À propos</a>
             |
             <a href="/info/license">Licenses</a>
             |

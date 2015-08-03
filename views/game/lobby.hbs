@@ -6,7 +6,7 @@
             <span class="navbar-title" data-bind="text: game().name">&nbsp;</span>
             <!-- /ko -->
             <!-- ko ifnot: game() -->
-            <span class="navbar-title">Chargement...</span>
+            <span class="navbar-title">Chargement&hellip;</span>
             <!-- /ko -->
         </li>
 
@@ -14,7 +14,7 @@
         <li>
             <a href="#" data-toggle="modal" data-target="#game-players-modal">
                 <span class="glyphicon glyphicon-user"></span>
-                Players
+                Joueurs
             </a>
         </li>
         <!-- /ko -->
@@ -22,7 +22,7 @@
 
     {{#prepend 'navRight'}}
         <li>
-            <a href="#" onclick="leaveGame()" title="Leave game">
+            <a href="#" onclick="leaveGame()" title="Quitter la partie">
                 <span class="glyphicon glyphicon-remove"></span>
                 Quitter la partie
             </a>
@@ -45,7 +45,7 @@
         <div data-bind="ifnot: game">
             <p>
                 {{ajaxLoader}}<br/><br/>
-                Chargement de l'information de la partie...
+                Chargement de l'information de la partie&hellip;
             </p>
         </div>
 
@@ -85,7 +85,7 @@
                 <h1>Lobby</h1>
 
                 <p>
-                    En attente de l'hôte pour démarrer le jeu...
+                    En attente de l'hôte pour démarrer le jeu&hellip;
                 </p>
                 <!-- /ko -->
             </div>
@@ -126,7 +126,7 @@
                 <div class="col-md-offset-1 col-xs-5" data-bind="css: { 'has-error': game().name().length == 0 }">
 
                     <div class="form-group">
-                        <label for="name" class="col-xs-3 control-label">Nom:</label>
+                        <label for="name" class="col-xs-3 control-label">Nom :</label>
 
                         <div class="col-xs-9 input-group">
                             <input type="text" id="name" class="form-control" data-bind="value: game().name, enable: isHost">
@@ -143,7 +143,7 @@
 
                 <div class="col-xs-5">
                     <div class="form-group">
-                        <label for="name" class="col-xs-3 control-label">Mot de passe:</label>
+                        <label for="name" class="col-xs-3 control-label">Mot de passe :</label>
 
                         <div class="col-xs-9 input-group">
                             <!-- ko ifnot: passwordVisible -->
@@ -173,11 +173,11 @@
 
             <div>
                 <div class="col-md-offset-1 col-xs-5">
-                    {{input:dropdown 'scoreLimit' scoreLimits defaultScore 'Limite de score:' null 'data-bind="value: game().scoreLimit, enable: isHost"'}}
+                    {{input:dropdown 'scoreLimit' scoreLimits defaultScore 'Limite de points :' null 'data-bind="value: game().scoreLimit, enable: isHost"'}}
                 </div>
 
                 <div class="col-xs-5">
-                    {{input:dropdown 'playerLimit' playerLimits defaultPlayers 'Limite de joueurs:' null 'data-bind="value: game().playerLimit, enable: isHost"'}}
+                    {{input:dropdown 'playerLimit' playerLimits defaultPlayers 'Limite de joueurs :' null 'data-bind="value: game().playerLimit, enable: isHost"'}}
                 </div>
             </div>
 
@@ -185,7 +185,7 @@
                 <div class="col-md-offset-1 col-xs-5">
                     <div class="form-group">
                         <label for="roundTimeLimit" class="col-xs-3 control-label">
-                            Temps de tour:
+                            Temps de tour :
                         </label>
 
                         <div class="col-xs-9">
@@ -233,7 +233,7 @@
                     <h3>Paquets de base</h3>
 
                 <span class="help-block">
-                    Sélectionnez un ou plusieurs
+                    Sélectionnez au moins un
                 </span>
 
                     <div data-bind="foreach: sets">
@@ -251,7 +251,7 @@
                     <!-- ko if: sets().length == 0 -->
                     <div class="col-xs-12">
                         {{ajaxLoader}}
-                        Chargement des paquets...
+                        Chargement des paquets&hellip;
                     </div>
                     <!-- /ko -->
                 </div>
@@ -307,7 +307,7 @@
                 <!-- ko if: expansions().length == 0 -->
                 <div class="col-xs-12">
                     {{ajaxLoader}}
-                    Chargement des expansions...
+                    Chargement des expansions&hellip;
                 </div>
                 <!-- /ko -->
             </div>
@@ -320,7 +320,7 @@
 
         <div id="rules" class="collapse">
             <span class="help-block">
-                Petite aguiche de ce qui est à venir~ (ceux-ci ne sont <strong>pas</strong> encore implémentés!)
+                Petite présentation de ce qui est à venir~ (ceux-ci ne sont <strong>pas</strong> encore implémentés !)
             </span>
 
             <div class="row todo" data-bind="foreach: rulesRows()">
