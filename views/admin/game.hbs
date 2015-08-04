@@ -3,19 +3,19 @@
     {{#replace 'content'}}
         <h1>Stalking {{game.name}}</h1>
 
-        <h2>Overview</h2>
+        <h2>Vue d'ensemble</h2>
 
         <div class="row">
             <div class="col-xs-4">
                 <div class="list-group">
                     <div class="list-group-item">
-                        Score limit: {{game.scoreLimit}}
+                        Limite de points : {{game.scoreLimit}}
                     </div>
                     <div class="list-group-item">
-                        Player limit: {{game.playerLimit}}
+                        Limite de joueurs : {{game.playerLimit}}
                     </div>
                     <div class="list-group-item">
-                        Round time: {{game.roundTimeLimit}}
+                        Longueur des parties: {{game.roundTimeLimit}}
                     </div>
                 </div>
             </div>
@@ -23,29 +23,29 @@
             <div class="col-xs-4">
                 <div class="list-group">
                     <div class="list-group-item">
-                        Password:
+                        Mot de passe :
                         {{#if game.password}}
                             {{game.password}}
                         {{else}}
-                            <small>(not set)</small>
+                            <small>Non défini</small>
                         {{/if}}
                     </div>
                     <div class="list-group-item">
-                        Hidden:
+                        Caché :
                         {{#if game.hidden}}
-                            yes
+                            Oui
                         {{else}}
-                            no
+                            Non
                         {{/if}}
                     </div>
                 </div>
             </div>
         </div>
 
-        <h2>Decks</h2>
+        <h2>Paquets</h2>
         <div class="row">
             <div class="col-xs-4">
-                <h3>Base sets</h3>
+                <h3>Paquets de base</h3>
                 <ul>
                     {{#each game.sets}}
                         <li>
@@ -67,7 +67,7 @@
             </div>
         </div>
 
-        <h2 id="players">Players</h2>
+        <h2 id="players">Joueurs</h2>
         <ul>
             {{#each game.players}}
                 <li>
@@ -77,22 +77,22 @@
                     {{#ifCond game.state '==' GameState.PLAYING}}
                         - {{score}} points
                         {{#ifCond ../../game.czar '==' this}}
-                            - czar
+                            - Czar
                         {{/ifCond}}
                     {{/ifCond}}
                     {{#ifCond ../game.host '==' user}}
-                        - host
+                        - Hôte
                     {{/ifCond}}
                 </li>
             {{/each}}
         </ul>
 
-        <h2 id="state">State (round {{game.round}})</h2>
+        <h2 id="state">État (round {{game.round}})</h2>
         {{#ifCond game.state '==' GameState.LOBBY}}
-            (in lobby)
+            En attente
         {{/ifCond}}
         {{#ifCond game.state '==' GameState.ENDED}}
-            (ended)
+            Terminé
         {{/ifCond}}
         {{#ifCond game.state '==' GameState.PLAYING}}
             {{#if game.blackCard}}
@@ -107,9 +107,9 @@
 
         <h2>hax</h2>
         <ul>
-            <li>change settings</li>
-            <li>reset</li>
-            <li>change host</li>
+            <li>Changer la configuration</li>
+            <li>Remettre à zéro</li>
+            <li>Changer l'hôte</li>
         </ul>
     {{/replace}}
 

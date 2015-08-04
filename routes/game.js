@@ -23,7 +23,7 @@ var reply = function (res, status, data) {
 
 var list = function (req, res) {
     res.render('game/list', {
-        title: 'Game list',
+        title: 'Liste des parties',
         sets: cards.setsJson
     });
 };
@@ -38,17 +38,18 @@ var create = function (req, res) {
 
     var userGames = game.listGamesForUser(user);
     if (userGames.length >= Settings.maxGamesPerUser) {
-        errors.push('You\'re already hosting a lot of games, finish or leave those first!');
+        errors.push('Vous êtes déjà en train de jouer à plusieurs parties. Quittez-les ou terminez-les.');
     }
     if (game.listGames().length >= Settings.maxGames) {
-        errors.push('Woops, looks like there are too many games currently running! Maybe join one of them instead?');
+        errors.push('Oups ! Il semble y avoir trop de parties en cours. Pourquoi ne pas plutôt en rejoindre une ?');
     }
     if (!Settings.allowNewGames) {
+	errors.push('Les admins ont désactivé la fonctionnalité en ce moment. Le site va probablement être en maintenance bientôt. Réessayez plus tard');
         errors.push('Silly admin has disabled this right now. The site will probably go into maintenance soon, try again later.');
     }
 
     res.render('game/create', {
-        title: 'Host a new game',
+        title: 'Héberger une partie',
         errors: errors, userGames: userGames
     });
 };
@@ -57,7 +58,7 @@ var lobby = function (req, res) {
     var g = game.get(req.params.game);
 
     if (!g) {
-        req.flash('error', 'Game not found');
+        req.flash('error', 'Partie non trouvée');
         res.redirect('/games');
         return;
     }
@@ -82,7 +83,7 @@ var lobby = function (req, res) {
             userJson: JSON.stringify({id: user.id, name: user.name}), game: g
         });
     } else {
-        req.flash('error', 'That game has ended');
+        req.flash('error', 'Cette partie est terminée');
         res.redirect('/games');
     }
 };
@@ -92,7 +93,7 @@ var play = function (req, res) {
     var gameInstance = game.get(req.params.game);
 
     if (!gameInstance || gameInstance.state != constants.State.PLAYING) {
-        req.flash('error', 'That game doesn\'t exist');
+        req.flash('error', 'Cette partie n\'existe pas');
         res.redirect('/games');
         return;
     }

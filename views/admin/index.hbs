@@ -1,12 +1,12 @@
 {{#extend 'layouts/default'}}
 
     {{#replace 'content'}}
-        <h1>Fancy admin overview</h1>
+        <h1>Vue d'ensemble des admins de luxe</h1>
 
         <h2>
-            Statistics
+            Statistique
             <small>
-                on
+                sur
                 {{os.hostname}}
                 ({{os.type}} {{os.release}} {{os.arch}})
             </small>
@@ -16,7 +16,7 @@
             <div class="col-xs-4">
                 <div class="list-group">
                     <div class="list-group-item">
-                        Node <span data-bind="text: nodeVersion"></span>
+                        Noeud <span data-bind="text: nodeVersion"></span>
                     </div>
                     <div class="list-group-item">
                         PID: <span data-bind="text: pid"></span>
@@ -30,13 +30,13 @@
             <div class="col-xs-4">
                 <div class="list-group">
                     <div class="list-group-item">
-                        RSS: <span data-bind="text: formatRss"></span>
+                        RSS : <span data-bind="text: formatRss"></span>
                     </div>
                     <div class="list-group-item">
-                        Heap (total): <span data-bind="text: formatHeapTotal"></span>
+                        Heap (total) : <span data-bind="text: formatHeapTotal"></span>
                     </div>
                     <div class="list-group-item">
-                        Heap (used): <span data-bind="text: formatHeapUsed"></span>
+                        Heap (used) : <span data-bind="text: formatHeapUsed"></span>
                     </div>
                 </div>
             </div>
@@ -47,16 +47,16 @@
                         Game ID: <span data-bind="text: gameId"></span>
                     </div>
                     <div class="list-group-item">
-                        Muffins?
+                        Sirop d'érable ?
                     </div>
                     <div class="list-group-item">
-                        Muffins!
+                        Sirop d'érable !
                     </div>
                 </div>
             </div>
         </div>
 
-        <h2>Message of the day</h2>
+        <h2>Message du jour</h2>
 
         <div class="admin-inline-form">
             <div>
@@ -68,7 +68,7 @@
 
                     <div class="form-group col-xs-5">
                         <button data-bind="click: changeMotd">
-                            Set
+                            Appliquer
                         </button>
                     </div>
                 </div>
@@ -82,7 +82,7 @@
                 <div class="checkbox">
                     <label>
                         <input type="checkbox" id="allowGames" data-bind="checked: allowGames, disable: busy">
-                        Allow new games
+                        Permettre les nouvelles parties
                     </label>
                 </div>
             </div>
@@ -92,21 +92,21 @@
             <div>
                 <div class="form-group">
                     <button class="btn-danger" data-bind="click: doRestart, disable: busy() || restarting()">
-                        Restart
+                        Redémarrer
                     </button>
                 </div>
 
                 <div class="checkbox">
                     <label>
                         <input type="checkbox" data-bind="checked: restartWait, disable: restarting">
-                        Wait for games
+                        Attendre des parties
                     </label>
                 </div>
 
                 <div class="checkbox">
                     <label>
                         <input type="checkbox" data-bind="checked: restartUpdate, disable: restarting">
-                        Update
+                        Mettre à jour
                     </label>
                 </div>
             </div>
@@ -122,7 +122,7 @@
 
                     <div class="form-group col-xs-5">
                         <button data-bind="click: doBroadcast">
-                            Broadcast
+                            Diffuser
                         </button>
                     </div>
                 </div>
@@ -130,9 +130,9 @@
         </div>
 
         <h2>
-            Users
+            Utilisateurs
             <small>
-                <span data-bind="text: users().length"></span> active
+                <span data-bind="text: users().length"></span> actifs
                 -
                 <a href="/admin/users">view registered users</a>
             </small>
@@ -143,7 +143,7 @@
                 <thead>
                 <tr>
                     <th>ID</th>
-                    <th>Name</th>
+                    <th>Nom</th>
                 </tr>
                 </thead>
 
@@ -161,8 +161,8 @@
         </div>
 
         <h2>
-            Games
-            <small><span data-bind="text: games().length"></span> running</small>
+            Parties
+            <small><span data-bind="text: games().length"></span> en cours</small>
         </h2>
 
         <div>
@@ -170,9 +170,9 @@
                 <thead>
                 <tr>
                     <th>ID</th>
-                    <th>Name</th>
-                    <th>Players</th>
-                    <th>State</th>
+                    <th>Nom</th>
+                    <th>Joueurs</th>
+                    <th>État</th>
                 </tr>
                 </thead>
 
@@ -186,7 +186,7 @@
 
                     <td>
                         <span data-bind="text: players.length"></span>
-                        (<a href="#" data-bind="attr: { href: '/admin/game/' + id + '#players' }">Show</a>)
+                        (<a href="#" data-bind="attr: { href: '/admin/game/' + id + '#players' }">Afficher</a>)
                     </td>
 
                     <td data-bind="text: $root.formatGameState(state)"></td>
