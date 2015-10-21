@@ -32,11 +32,11 @@ var index = function (req, res) {
     }
 
     res.render('index', {
-        changes: changesData, motd: Settings.motd,
+        changes: changesData, motd: Settings.motd/*,
         valentine: {
             deckId: valentineDeckId,
             cards: cards
-        }
+        }*/
     });
 };
 
