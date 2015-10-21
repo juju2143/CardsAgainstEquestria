@@ -18,6 +18,8 @@
 
     "updateCommand": "",
 
+    "requestTimeout": 55000,
+
     "files": {
         "decks": "data/decks"
     },
@@ -27,6 +29,11 @@
             "name": "Derpy",
             "id": "derpy",
             "file": "derpy"
+        },
+        {
+            "name": "Discord",
+            "id": "discord",
+            "file": "discord"
         },
         {
             "name": "Luna",

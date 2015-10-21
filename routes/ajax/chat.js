@@ -5,6 +5,8 @@ var _ = require('underscore');
 var Chat = require('../../lib/chat');
 var Users = require('../../lib/users');
 
+var config = null;
+
 var post = function (req, res) {
     var user = req.session.user ? Users.get(req.session.user.id) : null;
     if (!user) {
@@ -49,24 +51,18 @@ var listen = function (req, res) {
             res.send(JSON.stringify([]));
             clearTimeout(request.timeoutId);
 
-            var requests = Chat.global.requests[user.id];
-            if (requests) {
-                var i = requests.indexOf(request);
-                if (i >= 0) {
-                    requests.splice(i, 1);
-                }
-            }
+            Chat.global.removeRequest(user, request);
 
             log.trace('Chat listen request by ' + user.id + '/' + user.name + ' returned empty');
-        }, 90000),
+        }, config.requestTimeout),
         userId: user.id,
         response: res
     };
-    Chat.global.requests[user.id].push(request);
+    Chat.global.addRequest(user, request);
 
     var messages = Chat.global.messages[user.id];
     if (messages && messages.length > 0) {
-        log.trace('Sending buffered messages because of ' + user.id + '/' + user.name);
+        log.trace('Sending buffered messages due to listen request by ' + user.id + '/' + user.name);
         Chat.global.send();
     } else {
         log.trace('Holding back messages response for ' + user.id + '/' + user.name);
@@ -89,7 +85,9 @@ var history = function (req, res) {
     res.send(JSON.stringify(messages));
 };
 
-module.exports = function (app) {
+module.exports = function (app, appConfig) {
+    config = appConfig;
+
     app.post('/ajax/chat/post', post);
     app.get('/ajax/chat/listen', listen);
     app.post('/ajax/chat/history', history);
