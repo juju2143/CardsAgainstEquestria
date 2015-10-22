@@ -461,7 +461,7 @@
             "pick": 1
         },
         {
-            "text": "<img src=\"\" alt=\"\/img\/maplepuff.png\" alt=\"Maple Puff qui pense &#224; ______\" \/>",
+            "text": "<img src=\"\/img\/maplepuff.png\" alt=\"Maple Puff qui pense &#224; ______\" style=\"max-height: 100%;\" \/>",
             "pick": 1
         },
         {
@@ -669,7 +669,7 @@
         "Un d&#233;bat sur le clop",
         "Une pipe &#224; la Chope Gobeline",
         "La face >8C &#224; Yannick",
-        "<img src=\"\" alt=\"\/img\/olivier.png\" alt=\"La face &#224; Olivier Parent\" \/>",
+        "<img src=\"\/img\/olivier.png\" alt=\"La face &#224; Olivier Parent\" style=\"max-height: 100%;\" \/>",
         "Un blind bag d&#233;cevant",
         "&#202;tre raciste envers Zecora",
         "Les r&#233;sidences Celestia",
