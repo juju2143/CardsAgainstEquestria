@@ -45,7 +45,6 @@ var create = function (req, res) {
     }
     if (!Settings.allowNewGames) {
 	errors.push('Les admins ont désactivé la fonctionnalité en ce moment. Le site va probablement être en maintenance bientôt. Réessayez plus tard');
-        errors.push('Silly admin has disabled this right now. The site will probably go into maintenance soon, try again later.');
     }
 
     res.render('game/create', {

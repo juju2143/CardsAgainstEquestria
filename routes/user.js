@@ -112,7 +112,7 @@ var doRegister = function (req, res) {
                 req.session.user.registered = true;
 
                 req.flash('success', 'Inscription réussie !');
-                req.flash('info', 'Veuillez gardez à l\'esprit que vous devrez utiliser votre mot de passe à partir de maintenant');
+                req.flash('info', 'Veuillez garder à l\'esprit que vous devrez utiliser votre mot de passe à partir de maintenant.');
                 res.redirect('/');
             });
     });

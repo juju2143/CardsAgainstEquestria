@@ -114,7 +114,7 @@
             Sélectionnez <span data-bind="text: blackCard().pick"></span> cartes dans l'ordre que vous voulez les jouer.
             <!-- /ko -->
             <!-- ko if: blackCard().pick <= 1 -->
-            SÉlectionnez une carte à jouer.
+            Sélectionnez une carte à jouer.
             <!-- /ko -->
             <!-- /ko -->
         </div>
@@ -384,7 +384,7 @@
                         method: 'post',
                         error: function (request, error, status) {
                             console.warn('Failed to request state: ' + error + ': ' + status);
-			    model.chat().showError('Impossible de récupérer l'état du jeu ! Nouvelle tentative dans 5 secondes.');
+			    model.chat().showError('Impossible de récupérer l\'état du jeu ! Nouvelle tentative dans 5 secondes.');
                             setTimeout(getState, 5000);
                         }
                     });
