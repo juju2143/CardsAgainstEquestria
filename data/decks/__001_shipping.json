@@ -1,6 +1,6 @@
 {
   "name": "Shipping!",
-  "description": "Valentine's Day 2015 special deck",
+  "description": "Paquet spécial St-Valentin 2015 (MLP)",
   "watermark": "OTP",
   "expansion": true,
   "blackCards": [
@@ -13,19 +13,19 @@
       "pick": 2
     },
     {
-      "text": "______ has a secret crush on ______.",
+      "text": "______ aime secrètement ______.",
       "pick": 2
     },
     {
-      "text": "______ is my waifu.",
+      "text": "______ est ma waifu.",
       "pick": 1
     },
     {
-      "text": "______ stole my waifu.",
+      "text": "______ a volé ma waifu.",
       "pick": 1
     },
     {
-      "text": "______ is gay for ______.",
+      "text": "______ est gay pour ______.",
       "pick": 2
     }
   ],

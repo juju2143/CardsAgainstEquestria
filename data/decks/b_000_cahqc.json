@@ -1,0 +1,1345 @@
+{
+    "name": "Cards Against Humanity",
+    "description": "Traduction qu\u00e9b\u00e9coise du jeu officiel par JolinM",
+    "watermark": "",
+    "expansion": false,
+    "blackCards": [
+        {
+            "text": "______ a appel&#233;. Il veut ravoir ______.",
+            "pick": 2
+        },
+        {
+            "text": "______ est le nouveau ______.",
+            "pick": 2
+        },
+        {
+            "text": "______, tout de m&#234;me une histoire d&#8217;amour mieux que Twilight.",
+            "pick": 1
+        },
+        {
+            "text": "______: bon jusqu&#8217;&#224; la derni&#232;re goutte.",
+            "pick": 1
+        },
+        {
+            "text": "______: c&#8217;est tellement emo!",
+            "pick": 1
+        },
+        {
+            "text": "______: Test&#233; par les enfants, approuv&#233; par les mamans.",
+            "pick": 1
+        },
+        {
+            "text": "______. C&#8217;est comme &#231;a que je veux mourir.",
+            "pick": 1
+        },
+        {
+            "text": "______. C&#8217;est un pi&#232;ge!",
+            "pick": 1
+        },
+        {
+            "text": "______. G&#233;nial en th&#233;orie, pas fameux en la pratique.",
+            "pick": 1
+        },
+        {
+            "text": "______. High five, le gros.",
+            "pick": 1
+        },
+        {
+            "text": "______. Impossible de s&#8217;en passer!",
+            "pick": 1
+        },
+        {
+            "text": "______. Parce que je le m&#233;rite bien.",
+            "pick": 1
+        },
+        {
+            "text": "&#192; l&#8217;antenne de RDS, vous &#233;coutez la Finale internationale de ______.",
+            "pick": 1
+        },
+        {
+            "text": "&#192; la Place des Arts ce mois-ci, la com&#233;die musicale ______.",
+            "pick": 1
+        },
+        {
+            "text": "A Rome , il y a des rumeurs que le Vatican a une chambre secr&#232;te consacr&#233;e &#224; ______.",
+            "pick": 1
+        },
+        {
+            "text": "&#192; sa crise de la quarantaine, mon p&#232;re s&#8217;est vraiment investi dans ______.",
+            "pick": 1
+        },
+        {
+            "text": "Agenouillez-vous devant ______.",
+            "pick": 1
+        },
+        {
+            "text": "Alors que les &#201;tats-Unis et l&#8217;URSS s&#8217;affrontaient dans la course &#224; l&#8217;espace, le Mexique d&#233;pensait des millions de pesos dans la recherche sur ______.",
+            "pick": 1
+        },
+        {
+            "text": "Apr&#232;s avoir perdu connaissance au jour de l&#8217;an, j'ai &#233;t&#233; r&#233;veill&#233; par______",
+            "pick": 1
+        },
+        {
+            "text": "Apr&#232;s le tremblement de terre, C&#233;line Dion a donn&#233; ______ aux habitants d&#8217;Ha&#239;ti.",
+            "pick": 1
+        },
+        {
+            "text": "C'est une sorci&#232;re! Elle m'a transform&#233; en ______!",
+            "pick": 1
+        },
+        {
+            "text": "C&#8217;est bien dommage de voir les enfants d&#8217;aujourd&#8217;hui avoir &#224; dealer avec ______.",
+            "pick": 1
+        },
+        {
+            "text": "C&#8217;est pas fa-ci-le \/ Quand ______ te laisse tomber!",
+            "pick": 1
+        },
+        {
+            "text": "C&#8217;est quoi ce son?",
+            "pick": 1
+        },
+        {
+            "text": "C&#8217;est quoi cette nouvelle di&#232;te miracle?",
+            "pick": 1
+        },
+        {
+            "text": "Celui qui contr&#244;le ______ contr&#244;le le monde.",
+            "pick": 1
+        },
+        {
+            "text": "Chaque No&#235;l, mon oncle se saoule et raconte l'histoire de ______.",
+            "pick": 1
+        },
+        {
+            "text": "Ch&#232;re Louise Desch&#226;telets, j&#8217;ai de la mis&#232;re avec ______, pouvez-vous m&#8217;aider?",
+            "pick": 1
+        },
+        {
+            "text": "Comment ai-je perdu ma virginit&#233;?",
+            "pick": 1
+        },
+        {
+            "text": "Dans 1000 ans, l&#8217;argent papier ne sera qu&#8217;un vague souvenir, nous paierons les choses avec ______.",
+            "pick": 1
+        },
+        {
+            "text": "Dans la ferme &#224; Mathurin \/ Hi a&#239;e hi a&#239;e ho! \/ Y&#8217;a ______. \/ Hi a&#239;e hi a&#239;e ho!",
+            "pick": 1
+        },
+        {
+            "text": "Dans le 24e si&#232;cle , tous les vaisseaux spatiaux seront &#233;quip&#233;s de ______.",
+            "pick": 1
+        },
+        {
+            "text": "Dans le septi&#232;me cercle de l&#8217;enfer, les p&#233;cheurs doivent supporter ______ pour l&#8217;&#233;ternit&#233; .",
+            "pick": 1
+        },
+        {
+            "text": "Dans un avenir lointain, les historiens seront d&#8217;accord que ______ a marqu&#233; le d&#233;but du d&#233;clin de l'Am&#233;rique.",
+            "pick": 1
+        },
+        {
+            "text": "Des ethnographes ont r&#233;cemment d&#233;couvert une tribu aborig&#232;ne vouant un culte &#224; ______.",
+            "pick": 1
+        },
+        {
+            "text": "D&#233;sormais, le P&#232;re No&#235;l n&#8217;apportera plus du charbon aux vilains enfants, mais ______.",
+            "pick": 1
+        },
+        {
+            "text": "Deux choses sont certaines dans la vie: la mort et ______.",
+            "pick": 1
+        },
+        {
+            "text": "Devant le Pharaon impassible, Mo&#239;se provoqua la onzi&#232;me plaie: ______.",
+            "pick": 1
+        },
+        {
+            "text": "Enfin, un service qui livre ______ directement &#224; la porte.",
+            "pick": 1
+        },
+        {
+            "text": "Internet est pour ______.",
+            "pick": 1
+        },
+        {
+            "text": "J&#8217;ai rempli mon disque dur de photos de ______.",
+            "pick": 1
+        },
+        {
+            "text": "J&#8217;ignore avec quelles armes se fera la Troisi&#232;me Guerre mondiale, mais la Quatri&#232;me se fera avec ______.",
+            "pick": 1
+        },
+        {
+            "text": "Je bois pour oublier ______.",
+            "pick": 1
+        },
+        {
+            "text": "Je m&#8217;excuse madame, je n&#8217;ai pas pu terminer mon devoir &#224; cause de ______.",
+            "pick": 1
+        },
+        {
+            "text": "Je n&#8217;ai pas pardonn&#233; &#224; George R. R. Martin depuis ______.",
+            "pick": 1
+        },
+        {
+            "text": "Je n&#8217;arrive pas &#224; croire qu&#8217;ils ont approuv&#233; ma th&#232;se de doctorat sur ______.",
+            "pick": 1
+        },
+        {
+            "text": "Je n&#8217;avais aucune id&#233;e que la chasse d&#233;mon impliquerait autant de ______.",
+            "pick": 1
+        },
+        {
+            "text": "Je n&#8217;en peux plus d&#8217;avoir &#224; expliquer ______.",
+            "pick": 1
+        },
+        {
+            "text": "Je ne suis peut-&#234;tre pas bon dans les sports, mais je suis incroyable &#224; ______.",
+            "pick": 1
+        },
+        {
+            "text": "Je pensais avoir tout vu, jusqu&#8217;&#224; ce que les extraterrestres nous montrent ______.",
+            "pick": 1
+        },
+        {
+            "text": "J&#233;sus est ______.",
+            "pick": 1
+        },
+        {
+            "text": "La &#171;blind date&#187; se d&#233;roulait horriblement jusqu&#8217;&#224; ce que nous d&#233;couvrions notre int&#233;r&#234;t commun pour______",
+            "pick": 1
+        },
+        {
+            "text": "La capacit&#233; de d&#233;truire une plan&#232;te est insignifiante &#224; c&#244;t&#233; de ______.",
+            "pick": 1
+        },
+        {
+            "text": "La derni&#232;re chose &#224; laquelle pensa Michael Jackson avant de mourir fut ______.",
+            "pick": 1
+        },
+        {
+            "text": "La guerre! Qu&#8217;est-ce que &#231;a a de positif?",
+            "pick": 1
+        },
+        {
+            "text": "La Ligue nationale de hockey a banni ______ &#224; cause des avantages injustes que &#231;a procure.",
+            "pick": 1
+        },
+        {
+            "text": "La m&#233;decine reconna&#238;t enfant les pouvoirs th&#233;rapeutiques de ______.",
+            "pick": 1
+        },
+        {
+            "text": "La meilleure chose &#224; propos d&#8217;un nouvel ordinateur est ______.",
+            "pick": 1
+        },
+        {
+            "text": "La meilleure\/pire chose sur Tumblr est ______.",
+            "pick": 1
+        },
+        {
+            "text": "La nouvelle t&#233;l&#233;r&#233;alit&#233; de TVA, c&#8217;est huit vedettes vieillissantes qui vivent avec ______.",
+            "pick": 1
+        },
+        {
+            "text": "La r&#232;gle 34 est toujours valide, sans exception, pas m&#234;me pour ______.",
+            "pick": 1
+        },
+        {
+            "text": "La science ne pourra jamais expliquer l&#8217;origine de ______.",
+            "pick": 1
+        },
+        {
+            "text": "la sortie scolaire a &#233;t&#233; totalement g&#226;ch&#233;e par ______.",
+            "pick": 1
+        },
+        {
+            "text": "La vie des Am&#233;rindiens fut chang&#233;e &#224; jamais lorsque l&#8217;Homme blanc lui apporta ______.",
+            "pick": 1
+        },
+        {
+            "text": "La vie &#233;tait dure pour les hommes des cavernes avant ______.",
+            "pick": 1
+        },
+        {
+            "text": "Le Biod&#244;me pr&#233;sentera demain une nouvelle aire interactive portant sur ______.",
+            "pick": 1
+        },
+        {
+            "text": "Le gouvernement socialiste de Scandinavie a d&#233;clar&#233; que l&#8217;acc&#232;s &#224; ______est un droit humain fondamental.",
+            "pick": 1
+        },
+        {
+            "text": "Le meilleur ami des filles, c&#8217;est ______.",
+            "pick": 1
+        },
+        {
+            "text": "Le processus de gu&#233;rison a commenc&#233; lorsque j&#8217;ai rejoint un groupe de soutien pour les victimes de ______.",
+            "pick": 1
+        },
+        {
+            "text": "Le prochain livre de J. K. Rowling: Harry Potter contre ______.",
+            "pick": 1
+        },
+        {
+            "text": "Les blancs aiment bien ______.",
+            "pick": 1
+        },
+        {
+            "text": "Les derniers mots du capitaine furent: ______.",
+            "pick": 1
+        },
+        {
+            "text": "Les extraterrestres ont refus&#233; d&#8217;envahir la Terre pendant des ann&#233;es &#224; cause de ______.",
+            "pick": 1
+        },
+        {
+            "text": "Les membres de l&#8217;&#233;lite paient des milliers de dollars juste pour exp&#233;rimenter ______.",
+            "pick": 1
+        },
+        {
+            "text": "Les vieux, &#231;a sent quoi?",
+            "pick": 1
+        },
+        {
+            "text": "Les votes sont termin&#233;s, et la nouvelle mascotte de l&#8217;&#233;cole est ______.",
+            "pick": 1
+        },
+        {
+            "text": "Lors de relations sexuelles, j&#8217;aime penser &#224; ______.",
+            "pick": 1
+        },
+        {
+            "text": "Ma m&#232;re a paniqu&#233; quand elle a regard&#233; mon historique de navigation et trouv&#233; ______.com.",
+            "pick": 1
+        },
+        {
+            "text": "Mais avant de vous tuer, M. Bond, je dois vous montrer ______.",
+            "pick": 1
+        },
+        {
+            "text": "Mais qu&#8217;est-ce que &#231;a sent?",
+            "pick": 1
+        },
+        {
+            "text": "Mon prochain projet sera un mod&#232;le r&#233;duit de ______.",
+            "pick": 1
+        },
+        {
+            "text": "Mon prof de gymnastique a &#233;t&#233; cong&#233;di&#233; pour avoir ajout&#233; ______&#224; la course &#224; obstacles.",
+            "pick": 1
+        },
+        {
+            "text": "Nerds solitaires: Ne soyez plus solitaire, gr&#226;ce &#224; ______!",
+            "pick": 1
+        },
+        {
+            "text": "Papa, pourquoi maman elle pleure?",
+            "pick": 1
+        },
+        {
+            "text": "Pendant le car&#234;me, de quoi vais-je me priver?",
+            "pick": 1
+        },
+        {
+            "text": "Pendant son enfance, Dal&#237; a cr&#233;&#233; des centaines de tableaux repr&#233;sentant ______.",
+            "pick": 1
+        },
+        {
+            "text": "Personne ne croit que je suis vraiment allergique &#224; ______.",
+            "pick": 1
+        },
+        {
+            "text": "Peut-&#234;tre qu'elle est n&#233;e avec. Peut-&#234;tre que c&#8217;est ______.",
+            "pick": 1
+        },
+        {
+            "text": "Plus jamais de charades, depuis que ma m&#232;re a d&#251; mimer ______.",
+            "pick": 1
+        },
+        {
+            "text": "Pourquoi ai-je des flatulences incontr&#244;lables?",
+            "pick": 1
+        },
+        {
+            "text": "Pourquoi est-ce que j&#8217;ai mal partout?",
+            "pick": 1
+        },
+        {
+            "text": "Pourquoi suis-je tout collant?",
+            "pick": 1
+        },
+        {
+            "text": "Pourquoi toutes ces carottes? Pourquoi les lapins ont besoin de cette bonne vision de toute mani&#232;re?",
+            "pick": 1
+        },
+        {
+            "text": "Qu&#8217;est-ce qu&#8217;on br&#251;le, hormis des sorci&#232;res?",
+            "pick": 1
+        },
+        {
+            "text": "Qu&#8217;est-ce qu&#8217;on trouve par milliers au paradis?",
+            "pick": 1
+        },
+        {
+            "text": "Qu&#8217;est-ce que grand-maman trouve d&#8217;abord perturbant, puis &#233;trangement plaisant?",
+            "pick": 1
+        },
+        {
+            "text": "Qu&#8217;est-ce que j&#8217;ai rapport&#233; du Mexique?",
+            "pick": 1
+        },
+        {
+            "text": "Qu&#8217;est-ce que je ram&#232;ne dans le pass&#233; pour convaincre tout le monde que je suis un sorcier puissant?",
+            "pick": 1
+        },
+        {
+            "text": "Qu&#8217;est-ce que la Fondation du Dr Julien utilise pour aider les enfants pauvres &#224; r&#233;ussir?",
+            "pick": 1
+        },
+        {
+            "text": "Qu&#8217;est-ce que le minist&#232;re des Transports interdit dor&#233;navant sur tous les avions?",
+            "pick": 1
+        },
+        {
+            "text": "Qu&#8217;est-ce que les &#201;tats-Unis ont parachut&#233; aux enfants afghans?",
+            "pick": 1
+        },
+        {
+            "text": "Qu&#8217;est-ce que mes parents me cachent?",
+            "pick": 1
+        },
+        {
+            "text": "Qu&#8217;est-ce que Pauline Marois adore?",
+            "pick": 1
+        },
+        {
+            "text": "Qu&#8217;est-ce que Vin Diesel mange pour souper?",
+            "pick": 1
+        },
+        {
+            "text": "Qu&#8217;est-ce que vous n&#8217;aimeriez pas trouver dans votre repas vietnamien?",
+            "pick": 1
+        },
+        {
+            "text": "Qu&#8217;est-ce qui a d&#233;truit ma derni&#232;re relation amoureuse?",
+            "pick": 1
+        },
+        {
+            "text": "Qu&#8217;est-ce qui a laiss&#233; cette tache sur mon divan?",
+            "pick": 1
+        },
+        {
+            "text": "Qu&#8217;est-ce qui a mis fin &#224; l&#8217;orgie?",
+            "pick": 1
+        },
+        {
+            "text": "Qu&#8217;est-ce qui a rendu la vie difficile &#224; la colonie de nudistes?",
+            "pick": 1
+        },
+        {
+            "text": "Qu&#8217;est-ce qui aide Barack Obama &#224; se changer les id&#233;es?",
+            "pick": 1
+        },
+        {
+            "text": "Qu&#8217;est-ce qui aide Harper &#224; relaxer?",
+            "pick": 1
+        },
+        {
+            "text": "Qu&#8217;est-ce qui est le plus gay?",
+            "pick": 1
+        },
+        {
+            "text": "Qu&#8217;est-ce qui est le plus hardcore?",
+            "pick": 1
+        },
+        {
+            "text": "Qu&#8217;est-ce qui fait toujours lever le party?",
+            "pick": 1
+        },
+        {
+            "text": "Qu&#8217;est-ce qui m&#8217;emp&#234;che de dormir?",
+            "pick": 1
+        },
+        {
+            "text": "Qu&#8217;est-ce qui me permet de ne plus toucher &#224; la drogue?",
+            "pick": 1
+        },
+        {
+            "text": "Qu&#8217;est-ce qui me tient chaud pendant le long et froid hiver?",
+            "pick": 1
+        },
+        {
+            "text": "Qu&#8217;est-ce qui s&#8217;am&#233;liore avec le temps?",
+            "pick": 1
+        },
+        {
+            "text": "Qu&#8217;est-ce qui vous permet de coucher avec qui vous voulez?",
+            "pick": 1
+        },
+        {
+            "text": "Qu&#8217;y a-t-il dans la bo&#238;te?",
+            "pick": 1
+        },
+        {
+            "text": "Quand j&#8217;ai fait caca, qu&#8217;est-ce qui est sorti de mes fesses?",
+            "pick": 1
+        },
+        {
+            "text": "Quand j&#8217;&#233;tais petit, j&#8217;adorais ______.",
+            "pick": 1
+        },
+        {
+            "text": "Quand j&#8217;irai en prison, je cacherai ______ dans mes fesses pour en faire la contrebande.",
+            "pick": 1
+        },
+        {
+            "text": "Quand je serai Premier Ministre, je cr&#233;erai le minist&#232;re de ______.",
+            "pick": 1
+        },
+        {
+            "text": "Quand je serai riche, je ferai &#233;riger une statue de 15 m&#232;tres pour comm&#233;morer.",
+            "pick": 1
+        },
+        {
+            "text": "Quand tout le reste &#233;choue,, je peux toujours me masturber en pensant &#224;______",
+            "pick": 1
+        },
+        {
+            "text": "Quel est le nouveau r&#233;gime &#224; la mode?",
+            "pick": 1
+        },
+        {
+            "text": "Quel est le plaisir coupable de Batman?",
+            "pick": 1
+        },
+        {
+            "text": "Quel est mon super-pouvoir secret?",
+            "pick": 1
+        },
+        {
+            "text": "Quel est ta qu&#234;te?",
+            "pick": 1
+        },
+        {
+            "text": "Quel sera le prochain jouet dans les Happy Meal&#174;?",
+            "pick": 1
+        },
+        {
+            "text": "R&#233;sistance est ______.",
+            "pick": 1
+        },
+        {
+            "text": "Tu dois &#234;tre vraiment d&#233;sesp&#233;r&#233; pour demander &#224; ______ de l'aide.",
+            "pick": 1
+        },
+        {
+            "text": "Un entretien d&#8217;embauche r&#233;ussi commence par une poign&#233;e de main ferme et se termine par ______.",
+            "pick": 1
+        },
+        {
+            "text": "Un romantique d&#238;ner aux chandelles ne serait pas une r&#233;ussite sans ______.",
+            "pick": 1
+        },
+        {
+            "text": "Une &#233;tude d&#233;montre que des rats de laboratoire se d&#233;placent deux fois plus vite apr&#232;s avoir &#233;t&#233; expos&#233;s &#224; ______.",
+            "pick": 1
+        },
+        {
+            "text": "Voici la recette de ma vie amoureuse: ______.",
+            "pick": 1
+        },
+        {
+            "text": "What is your quest?",
+            "pick": 1
+        },
+        {
+            "text": "Qu&#8217;est-ce que tu obtiens en multipliant six par neuf?",
+            "pick": 1
+        },
+        {
+            "text": "&#192; Toronto, il est maintenant ill&#233;gal de ______.",
+            "pick": 1
+        },
+        {
+            "text": "Je vis ma vie selon les enseignements de ______.",
+            "pick": 1
+        },
+        {
+            "text": "Quelle est la seule fa&#231;on que je peux atteindre l&#8217;orgasme?",
+            "pick": 1
+        },
+        {
+            "text": "______, &#231;a m&#232;ne toujours &#224; ______.",
+            "pick": 2
+        },
+        {
+            "text": "Au clair de la lune \/ Mon ami Pierrot \/ Pr&#234;te-moi ______ \/ Pour ______.",
+            "pick": 2
+        },
+        {
+            "text": "Avant ______, tout ce que nous avions, c&#8217;&#233;tait ______.",
+            "pick": 2
+        },
+        {
+            "text": "Avec assez de temps et d&#8217;&#233;nergie, ______va se transformer en ______.",
+            "pick": 2
+        },
+        {
+            "text": "C&#8217;est vrai, j&#8217;ai tu&#233; ______. Avec ______.",
+            "pick": 2
+        },
+        {
+            "text": "Dans le nouveau film de Xavier Dolan, Roy Dupuis d&#233;couvre que ______ &#233;tait en fait ______ depuis le d&#233;but.",
+            "pick": 2
+        },
+        {
+            "text": "Dans un monde ravag&#233; par ______, noter seul espoir est ______.",
+            "pick": 2
+        },
+        {
+            "text": "Des probl&#232;mes avec ______? Essayez ______!",
+            "pick": 2
+        },
+        {
+            "text": "En un mot, ______ peut &#234;tre un substitut appropri&#233; pour ______.",
+            "pick": 2
+        },
+        {
+            "text": "Et l&#8217;Oscar pour ______ est remis &#224; ______.",
+            "pick": 2
+        },
+        {
+            "text": "&#201;tape 1: ______. &#201;tape 2: ______. &#201;tape 3: Profits.",
+            "pick": 2
+        },
+        {
+            "text": "Je n&#8217;ai jamais compris ______ jusqu&#8217;&#224; ce que je connaisse ______.",
+            "pick": 2
+        },
+        {
+            "text": "La rumeur court que Vladimir Poutine adore manger ______ fourr&#233; avec ______.",
+            "pick": 2
+        },
+        {
+            "text": "Le Canal Vie pr&#233;sente ______, la tragique histoire de ______.",
+            "pick": 2
+        },
+        {
+            "text": "Ma vie est r&#233;gie par un cycle vicieux de ______ et ______.",
+            "pick": 2
+        },
+        {
+            "text": "Pour mon prochain num&#233;ro, je vais faire sortir ______ de ______.",
+            "pick": 2
+        },
+        {
+            "text": "Quand j&#8217;&#233;tais sous acide, ______ se transformait en ______.",
+            "pick": 2
+        },
+        {
+            "text": "Quel est le prochain duo de superh&#233;ros \/ acolyte?",
+            "pick": 1
+        },
+        {
+            "text": "Si Dieu ne voulait pas nous permettre d&#8217;appr&#233;cier ______il ne nous aurait pas donn&#233; ______.",
+            "pick": 2
+        },
+        {
+            "text": "Un tribunal international a trouv&#233; ______ coupable de ______.",
+            "pick": 2
+        },
+        {
+            "text": "Vous n&#8217;avez pas vraiment v&#233;cu jusqu&#8217;&#224; ce que vous exp&#233;rimentiez ______et ______ en m&#234;me temps.",
+            "pick": 2
+        },
+        {
+            "text": "Vous seriez surpris de r&#233;aliser combien il y a de chevauchement dans un diagramme de Venn de ______ et ______.",
+            "pick": 2
+        },
+        {
+            "text": "______ + ______ = ______.",
+            "pick": 3
+        },
+        {
+            "text": "Faites un ha&#239;ku.",
+            "pick": 3
+        }
+    ],
+    "whiteCards": [
+        "55 gallons de lubrifiant.",
+        "72 vierges.",
+        "&#192; l&#8217;infini.",
+        "Acheter des v&#234;tements virtuels pour une famille de Sims plut&#244;t que de vrais v&#234;tements pour une vraie famille.",
+        "Acheter les bons pantalons pour &#234;tre cool.",
+        "Agripper son sabre, saisir la corde et s&#8217;&#233;crier: &#171;&#192; l&#8217;abordage!&#187;",
+        "Aller &#224; l&#8217;&#233;glise.",
+        "Appeler le Clan Panneton.",
+        "Apprendre &#224; un robot &#224; d&#8217;aimer",
+        "Arnold Schwarzenegger.",
+        "Assez d&#8217;h&#233;ro&#239;ne pour tuer un &#233;l&#233;phant.",
+        "Atteindre rapidement l&#8217;orgasme.",
+        "Attendre jusqu&#8217;au mariage.",
+        "Auschwitz.",
+        "Avoir des relations sexuelles sur une pizza.",
+        "Avoir les couilles b&#233;nites.",
+        "Avoir tes r&#232;gles pour la premi&#232;re fois.",
+        "Barack Obama.",
+        "BATMAN!!!",
+        "Battre tes femmes.",
+        "Beaucoup de bruit pour rien.",
+        "Bob l&#8217;&#233;ponge.",
+        "Boire comme un trou.",
+        "Boire dix boissons &#233;nergisantes pour avoir cinquante heures d&#8217;&#233;nergie en continu.",
+        "Boire tout seul.",
+        "Bond. James Bond.",
+        "Branler un peu les fesses en signe de d&#233;tresse.",
+        "Britney Spears &#224; 55 ans.",
+        "Br&#251;ler en enfer.",
+        "Buzz Lightyear.",
+        "Cacher une &#233;rection.",
+        "&#171;Caller&#187; l&#8217;orignal.",
+        "Cambrioler un zoo pour voler un singe.",
+        "Casse-Noisette.",
+        "Ce cul.",
+        "Ces moments o&#249; vous avez du sable dans le vagin.",
+        "Cet endroit chaud et invitant entre l&#8217;anus et la poche.",
+        "Cliquer fr&#233;n&#233;tiquement sur des photos de chats sur Internet.",
+        "Couler un bronze.",
+        "Courir nu dans un centre d&#8217;achat en pissant et chiant partout.",
+        "Crier &#224; la t&#233;l&#233;vision parce que &#231;a se passe diff&#233;remment dans le livre .",
+        "Crier comme un fou.",
+        "Cruiser les filles &#224; la clinique d&#8217;avortement.",
+        "Cruiser.",
+        "CTRL-ALT-DEL.",
+        "Dark Vador.",
+        "De la marde jusqu&#8217;au cou.",
+        "De la sauce Tabasco dans l&#8217;ur&#232;tre.",
+        "De la soupe beaucoup trop chaude.",
+        "De la viande de cheval.",
+        "De mauvais choix de vie.",
+        "De multiples coups de couteau.",
+        "D&#233;florer la princesse.",
+        "D&#233;penser beaucoup d&#8217;argent.",
+        "Des &#171;flashbacks&#187; du Vietnam.",
+        "Des abdominaux spectaculaires.",
+        "Des abeilles?",
+        "Des accidents de chasse.",
+        "Des adultes se frappant l&#8217;un l&#8217;autre avec des &#233;p&#233;es rembourr&#233;es.",
+        "Des amph&#233;tamines.",
+        "Des amputations &#224; froid.",
+        "Des amput&#233;s.",
+        "Des armes de destructions massives.",
+        "Des Asiatiques nuls en maths.",
+        "Des avortements au cintre.",
+        "Des batailles d&#8217;oreiller &#233;moustillantes.",
+        "Des beaux p&#233;tards.",
+        "Des b&#233;b&#233;s chiens!",
+        "Des b&#233;b&#233;s morts.",
+        "Des biscuits et des chatons.",
+        "Des bobettes mangeables.",
+        "Des boules anales.",
+        "Des bouttes ben durs.",
+        "Des camps de b&#251;cherons.",
+        "Des castors volants qui fourrent",
+        "Des catapultes.",
+        "Des ceintures de chastet&#233;.",
+        "Des cellules souches.",
+        "Des centaures.",
+        "Des ch&#232;vres qui mangent des sacs de poubelles.",
+        "Des chnolles.",
+        "Des cicatrices purulentes d&#8217;&#233;pilation au laser.",
+        "Des concours de beaut&#233; pour enfants.",
+        "Des couches pleines de marde.",
+        "Des couvertures avec la variole.",
+        "Des crevettes &#224; volont&#233; pour 4,99$.",
+        "Des crottes de nez.",
+        "Des cuisses muscl&#233;es.",
+        "Des d&#233;chets nucl&#233;aires.",
+        "Des dommages collat&#233;raux.",
+        "Des &#233;chantillons gratuits.",
+        "Des embuscades de velociraptors.",
+        "Des &#233;missions nocturnes.",
+        "Des enfants de chienne.",
+        "Des enfants qui ont le cancer du cul.",
+        "Des enfants tenus en laisse.",
+        "Des explosions.",
+        "Des fant&#244;mes.",
+        "Des gobelins.",
+        "Des gratteux.",
+        "Des histoires &#233;rotiques avec Harry Potter.",
+        "Des implants cybern&#233;tiques.",
+        "Des injections d&#8217;hormones.",
+        "Des jokes d&#8217;Holocauste au moment inopportun.",
+        "Des Jos Louis.",
+        "Des jumelles siamoises sexy.",
+        "Des loups-garous.",
+        "Des mangas pornos avec tentacules.",
+        "Des mines antipersonnelles.",
+        "Des morceaux de prostitu&#233;e en d&#233;composition.",
+        "Des Nazis.",
+        "Des nones cochonnes.",
+        "Des objets qui brillent.",
+        "Des &#339;ufs de pt&#233;rodactyle.",
+        "Des oies.",
+        "Des orphelins qui te r&#233;chauffent le c&#339;ur.",
+        "Des palourdes.",
+        "Des pancakes.",
+        "Des pandas qui copulent all&#232;grement.",
+        "Des pantalons crissement serr&#233;s.",
+        "Des pantalons de cowboy qui laissent les fesses &#224; l&#8217;air.",
+        "Des parents morts.",
+        "Des p&#233;dophiles.",
+        "Des pens&#233;es suicidaires.",
+        "Des petites culottes usag&#233;es.",
+        "Des pets de sang.",
+        "Des photos de seins.",
+        "Des pilotes kamikazes.",
+        "Des Pizza Pochettes.",
+        "Des Post-il passif-agressifs.",
+        "Des pouces opposables.",
+        "Des pr&#233;ados.",
+        "Des pr&#233;liminaires botch&#233;es.",
+        "Des probl&#232;mes intimes",
+        "Des questions d&#8217;examen racistes.",
+        "Des rires en canne.",
+        "Des robots volants qui tuent des gens.",
+        "Des sacrifices humains.",
+        "Des saunas gais.",
+        "Des scies &#224; cha&#238;nes comme mains.",
+        "Des s&#233;cr&#233;tions vaginales.",
+        "Des seins refaits tout croche.",
+        "Des sels de bain.",
+        "Des solos de saxophone.",
+        "Des solutions synerg&#233;tiques de gestion.",
+        "Des sous-entendus discriminatoires.",
+        "Des porn-stars.",
+        "Des Stromtroopers.",
+        "Des sucettes g&#233;antes.",
+        "Des toilettes mixtes.",
+        "Des travestis assez jolis merci.",
+        "Des victimes civiles.",
+        "Des vieux Japonais.",
+        "Des yogourts en tubes.",
+        "D&#233;truire les pi&#232;ces &#224; conviction.",
+        "Deux nains qui chient dans un sceau.",
+        "Deux steam&#233;s, une patate frite.",
+        "Dieu.",
+        "Doigter.",
+        "Don Cherry.",
+        "Donner son 110%.",
+        "Douce, douce vengeance&#8230;",
+        "Du bling.",
+        "Du crastillon.",
+        "Du crystal meth.",
+        "Du d&#233;odorant AXE.",
+        "Du fromage cottage.",
+        "Du fromage fondu.",
+        "Du g&#226;teau aux fruits.",
+        "Du sexe surprise!",
+        "Du sperme d&#8217;elfe.",
+        "Du sperme de baleine",
+        "Du velcro.",
+        "Du Viagra.",
+        "&#201;changer des plaisanteries.",
+        "&#201;c&#339;urer des enfants.",
+        "&#201;diter Wikipedia pour prouver un argument.",
+        "&#201;jecter un b&#233;b&#233; aux neuf mois.",
+        "Enlever son chandail.",
+        "Envoyer des sextos.",
+        "Essayer de manger comme un &#234;tre humain tout en portant un corset.",
+        "&#202;tre &#171;unfriend&#233;&#187; sur Facebook",
+        "&#202;tre bon au sexe.",
+        "&#202;tre en feu.",
+        "&#202;tre excit&#233; par l&#233;gumes phalliques.",
+        "&#202;tre extraordinaire.",
+        "&#202;tre fabuleux.",
+        "&#202;tre marginalis&#233;.",
+        "&#202;tre riche.",
+        "&#202;tre second dans concours de fellation.",
+        "&#202;tre seulement un peu enceinte.",
+        "&#202;tre un dinosaure.",
+        "&#202;tre un sorcier, tabarnak!",
+        "&#202;tre viol&#233;e par un orignal.",
+        "Exactement ce qui devait arriver.",
+        "Exister.",
+        "Fabriquer des statistiques.",
+        "Faire ce qu&#8217;y a &#224; faire.",
+        "Faire des clins d&#8217;&#339;il &#224; des vieux.",
+        "Faire l'amour &#224; un mouton tr&#232;s sexy.",
+        "Faire l&#8217;amour tout en regardant &#171;La liste de Schindler&#187;.",
+        "Faire la moue.",
+        "Faire le bon choix.",
+        "Faire le zouave.",
+        "Faire semblant d&#8217;&#234;tre int&#233;ress&#233;.",
+        "Faire un p&#8217;tit pipi.",
+        "Fantasmer sur les b&#251;cherons.",
+        "Fister.",
+        "Foncer dans l&#8217;tas.",
+        "Fuck you.",
+        "Fumer un gros bat.",
+        "Galoper vers le soleil couchant.",
+        "Gambader.",
+        "Gandalf.",
+        "Gandhi.",
+        "Genghis Khan.",
+        "Gifler une vieille dame raciste.",
+        "Godzilla.",
+        "Gonfler Jeff Fillion &#224; l&#8217;h&#233;lium et le regarder flotter vers l&#8217;horizon.",
+        "Grand-maman.",
+        "Gu&#233;rir l&#8217;homosexualit&#233; par la pri&#232;re.",
+        "Guillaume Lemay-Thivierge.",
+        "Hara-kiri.",
+        "Hubert Reeves.",
+        "Hulk Hogan.",
+        "Internet dans son ensemble.",
+        "Jacques Cartier.",
+        "Jean &#171;L&#224;-L&#224;&#187; Tremblay.",
+        "Jean Charest.",
+        "Jean Chr&#233;atien.",
+        "Jesus.",
+        "Jouer &#224; des jeux vid&#233;o avec les fen&#234;tres ouvertes, parce que c&#8217;est une belle journ&#233;e.",
+        "Jouer au Quidditch, pour de vrai.",
+        "Jouer de la ruine-babines en fourrant une grosse truie dans la bo&#238;te d&#8217;un pickup.",
+        "Justin Bieber.",
+        "Kanye West.",
+        "Karine Vanasse.",
+        "Kim-Jong-il.",
+        "L&#8217;abeille des Cheerios au miel et aux noix.",
+        "L&#8217;abstinence.",
+        "L&#8217;accent du lac Saint-Jean.",
+        "L&#8217;agriculture.",
+        "L&#8217;Alberta.",
+        "L&#8217;alcoolisme.",
+        "L&#8217;amour inconditionnel.",
+        "L&#8217;amour intense de Nikola Tesla pour un pigeon.",
+        "L&#8217;Apocalypse.",
+        "L&#8217;Association des scouts du Canada.",
+        "L&#8217;attitude.",
+        "L&#8217;autocannibalisme.",
+        "L&#8217;autoflagellation.",
+        "L&#8217;&#233;conomie.",
+        "L&#8217;&#233;coute th&#233;rapeutique.",
+        "L&#8217;&#233;lectricit&#233;.",
+        "L&#8217;envie de p&#233;nis.",
+        "L&#8217;&#233;pisode de No&#235;l.",
+        "L&#8217;&#233;quipe chinoise de gymnastique.",
+        "L&#8217;esclavage.",
+        "L&#8217;espoir.",
+        "L&#8217;&#233;volution.",
+        "L&#8217;herp&#232;s buccal.",
+        "L&#8217;Immacul&#233;e Conception.",
+        "L&#8217;impuissance.",
+        "L&#8217;inceste.",
+        "L&#8217;in&#233;vitable mort thermique de l&#8217;univers.",
+        "L&#8217;ob&#233;sit&#233;.",
+        "L&#8217;odeur des vieux.",
+        "L&#8217;&#339;strog&#232;ne.",
+        "L&#8217;offre et la demande.",
+        "L&#8217;orgasme f&#233;minin.",
+        "L&#8217;ouragan Katrina.",
+        "La bact&#233;rie mangeuse de chair.",
+        "La bataille des plaines d&#8217;Abraham.",
+        "La Bible.",
+        "La brutalit&#233; polici&#232;re.",
+        "La cheerleader girl qui sauva le monde.",
+        "La combustion spontan&#233;e.",
+        "La combustion spontan&#233;e.",
+        "La cuisine mexicaine authentique.",
+        "La danse des canards.",
+        "La d&#233;cence humaine.",
+        "La d&#233;portation des Acadiens.",
+        "La destruction mutuelle assur&#233;e.",
+        "La destruction syst&#233;matique de tout un peuple et de leur mode de vie.",
+        "La douche revanche.",
+        "La drogue du viol.",
+        "La famine.",
+        "La folie des hommes.",
+        "La folle au travail.",
+        "La fondation R&#234;ve d&#8217;Enfant.",
+        "La Force.",
+        "La friction.",
+        "La Gendarmerie royale du Canada.",
+        "La lactation.",
+        "La l&#232;pre.",
+        "La Macarena.",
+        "La masturbation.",
+        "La m&#233;nopause.",
+        "La merveilleuse &#233;pop&#233;e de l&#8217;accouchement.",
+        "La m&#233;thode scientifique.",
+        "La minorit&#233; visible.",
+        "La mis&#232;re des riches.",
+        "La musique New Age.",
+        "La n&#233;crophilie.",
+        "La paix dans le monde.",
+        "La peinture &#224; num&#233;ros.",
+        "La peluche &#171;Elmo chatouille-moi&#187;.",
+        "La poitrine l&#233;gendaire de Mitsou.",
+        "La porno sado-maso allemande.",
+        "La preuve irr&#233;futable de la vie sur Mars.",
+        "La prostate.",
+        "La psychologie du d&#233;veloppement.",
+        "La pubert&#233;.",
+        "La raison.",
+        "La r&#233;habilitation.",
+        "La r&#233;pression.",
+        "La r&#233;volte des M&#233;tis.",
+        "La sc&#232;ne apr&#232;s le g&#233;n&#233;rique.",
+        "La science.",
+        "La Scientologie.",
+        "La section des commentaires.",
+        "La s&#233;duction.",
+        "La s&#233;lection naturelle.",
+        "La stupidit&#233; la plus abjecte.",
+        "La tension sexuelle.",
+        "La tuerie de Polytechnique.",
+        "La v&#233;locit&#233; d&#8217;une hirondelle &#233;gar&#233;e.",
+        "La violation des droits humains fondamentaux.",
+        "La violation du droit fondamental &#224; la vie.",
+        "La violence faite aux enfants.",
+        "Laissant tomber tout le monde.",
+        "Laisser un message embarrassant sur le r&#233;pondeur.",
+        "Lancer comme une fille.",
+        "Lancer une vierge dans un volcan.",
+        "Le Big Bang.",
+        "Le caca qui br&#251;le.",
+        "Le caporal Lortie.",
+        "Le charisme.",
+        "Le cheval est une surprise.",
+        "Le Ch&#339;ur de l&#8217;Arm&#233;e Rouge.",
+        "Le clitoris.",
+        "Le corps nu et huil&#233; du Doc Mailloux.",
+        "Le d&#233;go&#251;t de soi.",
+        "Le devoir conjugal.",
+        "Le Diable en personne.",
+        "Le droit de vote des femmes.",
+        "Le faire dans les fesses.",
+        "Le Front de Lib&#233;ration du Qu&#233;bec.",
+        "Le fruit d&#233;fendu.",
+        "Le gouffre humide et demandant de sa bouche.",
+        "Le Ku Klux Klan.",
+        "Le laitier.",
+        "Le lancer de nain sur une cible en velcro.",
+        "Le mariage, les enfants, le chalet, la retraite, la mort.",
+        "Le Pape.",
+        "Le petit J&#233;r&#233;my.",
+        "Le ping-pong de caca cul &#224; cul.",
+        "Le placenta.",
+        "Le racisme.",
+        "Le r&#234;ve am&#233;ricain.",
+        "Le r&#233;v&#233;rend Dr. Martin Luther King Jr.",
+        "Le Royaume du chocolat.",
+        "Le sang du Christ.",
+        "Le sexe oral non r&#233;ciproque.",
+        "Le SIDA.",
+        "Le silence.",
+        "Le smegma.",
+        "Le soleil qui brille et les arcs-en-ciel.",
+        "Le solo de &#171;My Heart Will Go On&#187; au piccolo.",
+        "Le Stade olympique",
+        "Le Surhomme.",
+        "Le syndrome du b&#233;b&#233; secou&#233;.",
+        "Le syndrome pr&#233;menstruel.",
+        "Le syst&#232;me m&#233;trique.",
+        "Le talent d&#8217;actrice de Caroline N&#233;ron.",
+        "Le T&#233;l&#233;tubbie le plus gay des quatre.",
+        "Le testicule manquant de Lance Armstrong.",
+        "Le t&#233;tanos.",
+        "Le thon en conserve avec dauphin en plus.",
+        "Le truc qui &#233;lectrocute les abdominaux.",
+        "Le vagin de Whoopi Goldberg.",
+        "Le vigilantisme.",
+        "L&#233;cher de la bouffe pour que personne ne la prenne.",
+        "Les 10 mots inuits pour sperme.",
+        "Les Am&#233;rindiens.",
+        "Les Amish.",
+        "Les b&#233;lugas.",
+        "Les Blancs.",
+        "Les boulettes de viande du Ikea.",
+        "Les cendres de grand-papa.",
+        "Les cha&#238;nes de restaurant de banlieue.",
+        "Les chapeaux &#224; h&#233;lices.",
+        "Les Conservateurs.",
+        "Les critiques Amazon du balai vibrateur Nimbus 2000 d&#8217;Harry Potter",
+        "Les &#233;cologistes qui vivent dans les arbres.",
+        "Les &#233;motions.",
+        "Les exercices pour stimuler l&#8217;esprit d&#8217;&#233;quipe en entreprise.",
+        "Les f&#233;ministes avec des poils faciaux.",
+        "Les femmes dans les pubs de yogourt.",
+        "Les filles qui textent toujours.",
+        "Les Fran&#231;ais.",
+        "Les gais.",
+        "Les gars qui ne rappellent jamais.",
+        "Les gentils Cubains.",
+        "Les golden showers",
+        "Les hommes.",
+        "Les joueurs de djemb&#233; amateurs.",
+        "Les Juifs.",
+        "Les licornes.",
+        "Les nanotechnologies.",
+        "Les Noirs.",
+        "Les p&#8217;tits &#201;thiopiens.",
+        "Les pauvres.",
+        "Les petits chanteurs du Mont-Royal",
+        "Les producteurs de poulet de Bosnie.",
+        "Les repr&#233;sentants du service &#224; la client&#232;le.",
+        "Les R&#233;sidences Soleil.",
+        "Les roux.",
+        "Les sans-abri.",
+        "Les t&#233;moins de J&#233;hovah.",
+        "Les terroristes.",
+        "Les t&#233;trapl&#233;giques.",
+        "Les Vickings.",
+        "Libert&#233; et justice pour tous.",
+        "Litt&#233;ralement manger de la merde.",
+        "Lui torcher le cul.",
+        "Ma collection de vibrateurs hi-tech.",
+        "Ma machette.",
+        "Ma vie sexuelle.",
+        "Mahomet (Gloire &#224; Lui).",
+        "Manger la moustache de Tom Selleck pour gagner ses pouvoirs.",
+        "Manger le dernier Bison connu.",
+        "Manger les meilleurs bonbons avant l&#8217;Halloween.",
+        "Manger un b&#233;b&#233; phoque.",
+        "Manger un bonhomme de neige au complet.",
+        "Marcher sur un Lego.",
+        "M&#233;chaHitler.",
+        "Mes d&#233;mons int&#233;rieurs.",
+        "Mes parties g&#233;nitales.",
+        "Michael Jackson.",
+        "Mich&#232;le Richard.",
+        "Mon &#226;me.",
+        "Mon statut marital.",
+        "Mon vagin.",
+        "Monsieur Net, juste derri&#232;re toi.",
+        "Mourir de la dysenterie.",
+        "Mourir seul dans la douleur.",
+        "Mourir.",
+        "Ne pas avoir de sexe.",
+        "Nathalie Simard qui pleure en mangeant un p&#8217;tit pouding Laura Secord.",
+        "Ne pas contribuer &#224; la soci&#233;t&#233; d&#8217;une mani&#232;re significative.",
+        "Ne pas porter de pantalons.",
+        "Ne pas utiliser suffisamment de lubrifiant.",
+        "Ne plus &#234;tre capable de regarder son chien dans les yeux.",
+        "Nicolas Cage.",
+        "Nourrir Ginette Reno.",
+        "Oublier de manger et en mourir.",
+        "Pam-Man qui cale du sperme sans retenue.",
+        "Pas les abeilles! Pas les abeilles!",
+        "Passe-Carreau.",
+        "Passer le doigt.",
+        "Passer une pierre aux reins.",
+        "Penser aux Hutus et aux Tutsis et trouver &#231;a dr&#244;le.",
+        "Penser roter et vomir par terre.",
+        "Personne ne sait.",
+        "P&#233;ter des yeuses en sang.",
+        "P&#233;ter et s&#8217;en aller.",
+        "Piller des tombes.",
+        "Plein de chats.",
+        "Plusieurs paires de lunettes.",
+        "Porter des bobettes &#224; l&#8217;envers pour ne pas faire de lavage.",
+        "Quelque chose qui peut tenir sur un &#171;floppy disk&#187; de 3.5&#8221;",
+        "Remplir tous les orifices avec du pouding au caramel.",
+        "R&#233;my Girard.",
+        "Rendre &#231;a bizarre.",
+        "Ren&#233; Ang&#233;lil.",
+        "Renifler avec vigueur.",
+        "Rien.",
+        "Rire des orphelins.",
+        "Robert Downey Jr.",
+        "Robocop.",
+        "Ryan Gosling sur un cheval blanc.",
+        "S&#8217;asseoir pour faire pipi.",
+        "S&#8217;&#233;loignant d&#8217;une explosion sans regarder en arri&#232;re.",
+        "S&#8217;excuser.",
+        "Sa Majest&#233; la reine Elizabeth II",
+        "Salut!",
+        "Scalper.",
+        "Se crisser du Tiers-Monde.",
+        "Se d&#233;crasser le dessous des bourrelets.",
+        "Se faire brouter la touffe.",
+        "Se faire des c&#226;lins.",
+        "Se faire pogner les culottes baiss&#233;es, pour vrai.",
+        "Se frotter subtilement sur quelqu&#8217;un.",
+        "Se mettre &#224; chanter et &#224; danser.",
+        "Se mettre en col&#232;re juste pour passer le temps.",
+        "Se mettre tellement en col&#232;re que &#231;a en donne une &#233;rection.",
+        "Se mettre tout nu et regarder T&#233;l&#233;toon.",
+        "Se pavaner.",
+        "Se piquer avec des seringues sales.",
+        "Se promener les fesses &#224; l&#8217;air.",
+        "Se retirer.",
+        "Se r&#233;veiller tout nu dans le stationnement d&#8217;un Valentine.",
+        "Se saouler au rince-bouche.",
+        "Sean Connery.",
+        "S&#233;parer les eaux de la mer Rouge.",
+        "Sexter accidentellement ta m&#232;re.",
+        "Simple Plan.",
+        "Sniffer de la coke su&#8217; l&#8217;cul d&#8217;une pute.",
+        "Sniffer de la colle.",
+        "Sortir sa graine avec enthousiasme.",
+        "Souhaiter que des gobelins enl&#232;vent votre petit fr&#232;re.",
+        "Souper avec votre ex.",
+        "Staline.",
+        "Stephen Harper.",
+        "Stephen Hawking qui chuchote des obsc&#233;nit&#233;s.",
+        "Stephen Hawking qui dit des cochonneries.",
+        "Sucer des mecs dans une ruelle.",
+        "Supposer que toutes les personnes handicap&#233;es sont retard&#233;es.",
+        "Ta face.",
+        "Ta m&#232;re qui me demande en ami sur Facebook.",
+        "Tom Cruise.",
+        "Touiller la salade.",
+        "Toujours prendre des d&#233;cisions niaiseuses.",
+        "Tous mes amis en train de mourir.",
+        "Tousser dans un vagin.",
+        "Tricher aux Jeux olympiques sp&#233;ciaux.",
+        "Tripoter une plotte.",
+        "Trois b&#233;b&#233;s et demi.",
+        "Trois mois dans le trou.",
+        "Trouver Charlie.",
+        "Un &#171;douche&#187; avec une guitare acoustique.",
+        "Un abonnement &#224; Sentier Chasse et P&#234;che",
+        "Un AK-47.",
+        "Un amant Latino passionn&#233;.",
+        "Un anneau pour les gouverner tous.",
+        "Un anus blanchi.",
+        "Un autre osti de film de vampire.",
+        "Un avortement rat&#233;.",
+        "Un Calinours qui explique le sexe aux enfants.",
+        "Un chapeau vraiment tr&#232;s cool.",
+        "Un cheval avec une &#233;rection.",
+        "Un cinquantenaire en patins &#224; roulettes.",
+        "Un c&#339;ur d&#8217;enfant.",
+        "Un complexe d&#8217;&#338;dipe.",
+        "Un condom perc&#233;.",
+        "Un condom trou&#233;.",
+        "Un crayon bien aiguis&#233;.",
+        "Un criss de stool.",
+        "Un cul-de-jatte qui fait une crise d&#8217;&#233;pilepsie.",
+        "Un d&#233;collet&#233; &#233;l&#233;gant.",
+        "Un d&#233;mon avec un coeur en or.",
+        "Un dentiste sadique.",
+        "Un dojo rival.",
+        "Un environnement familial toxique.",
+        "Un faucon de chasse.",
+        "Un f&#339;tus.",
+        "Un fusil &#224; eau rempli de pisse de chat.",
+        "Un gars qui se liche les l&#232;vres en te regardant.",
+        "Un gif anim&#233; d&#8217;&#233;jaculation faciale.",
+        "Un hasard fou.",
+        "Un hold-up dans une banque de sperme.",
+        "Un lion qui fait la baboune.",
+        "Un livre ancien, plein de proph&#233;tie, &#224; propos de toi.",
+        "Un meurtre crapuleux.",
+        "Un microp&#233;nis.",
+        "Un milliard de dollars.",
+        "Un mime qui fait un AVC.",
+        "Un montage de volleyball homo&#233;rotique.",
+        "Un motel miteux.",
+        "Un moulin &#224; vent rempli de cadavres.",
+        "Un nain charmant.",
+        "Un nettoyage ethnique.",
+        "Un ninja aillant la diarrh&#233;e.",
+        "Un No&#235;l de paix et d&#8217;amour.",
+        "Un oncle raciste.",
+        "Un onguent chinois 100% naturel.",
+        "Un paquet de Mentos et une bouteille de Coke Di&#232;te de deux litres.",
+        "Un paradoxe temporel.",
+        "Un party de saucisses.",
+        "Un per&#231;age g&#233;nital.",
+        "Un pet vaginal.",
+        "Un pet sauce.",
+        "Un petit cheval.",
+        "Un petit d&#233;jeuner &#233;quilibr&#233;.",
+        "Un peu de temps juste pour moi.",
+        "Une pi&#241;ata pleine de scorpions.",
+        "Un poil pubien abandonn&#233;.",
+        "Un policier honn&#234;te qui n&#8217;a plus rien &#224; perdre.",
+        "Un pr&#233;puce.",
+        "Un pub irlandais.",
+        "Un r&#233;gime de bananes.",
+        "Un sac de f&#232;ves magiques.",
+        "Un singe qui fume le cigare.",
+        "Un spectacle de marionnettes.",
+        "Un Tamagotchi n&#233;glig&#233;.",
+        "Un Taser.",
+        "Un tout petit cochon qui porte de toutes petites bottes de pluie.",
+        "Un trisomique tr&#232;s costaud.",
+        "Un trombone rouill&#233;.",
+        "Un uppercut.",
+        "Un vagin qui m&#232;ne &#224; une autre dimension.",
+        "Un viol collectif.",
+        "Une ado enceinte.",
+        "Une antilope flatulente.",
+        "Une autre ann&#233;e de merde.",
+        "Une Bar-Mitzvah.",
+        "Une barre Mars frite et un verre de beurre fondu.",
+        "Une belle grosse graine.",
+        "Une belle personnalit&#233;.",
+        "Une bonne claque su&#8217;a yeule.",
+        "Une branlette tristement ex&#233;cut&#233;e.",
+        "Une chaudi&#232;re de t&#234;tes de poisson.",
+        "Une circoncision rat&#233;e.",
+        "Une couverture m&#233;diatique.",
+        "Une critique nuanc&#233;e.",
+        "Une crotte qui sort et qui rentre.",
+        "Une danse &#224; 10.",
+        "Une d&#233;charge &#233;lectrique aux mamelons.",
+        "Une dette accablante.",
+        "Une douce caresse de l&#8217;entrejambe.",
+        "Une &#233;norme femme scandinave.",
+        "Une &#233;rection qui dure plus que quatre heures.",
+        "Une explosion de jus dans ma bouche.",
+        "Une explosion thermonucl&#233;aire.",
+        "Une face &#224; fesser d&#8217;dans.",
+        "Une fellation au volant.",
+        "Une f&#234;te d&#8217;anniversaire rat&#233;e.",
+        "Une feuille dans le vent.",
+        "Une fille &#224; papa.",
+        "Une gigue endiabl&#233;e.",
+        "Une glaci&#232;re pleine d&#8217;organes.",
+        "Une grosse quille de Wildcat tablette.",
+        "Une jeune noire plut&#244;t coquine.",
+        "Une lobotomie au pic &#224; glace.",
+        "Une mal&#233;diction gitane.",
+        "Une maudite t&#234;te de cochon.",
+        "Une occasion d&#8217;apprendre.",
+        "Une orgie de penguin.",
+        "Une parade nuptiale.",
+        "Une pellet&#233;e de slotche.",
+        "Une pile de corps se tortillant.",
+        "Une pi&#241;ata pleine de scorpions.",
+        "Une pitoune paquet&#233;e.",
+        "Une possession d&#233;moniaque.",
+        "Une pr&#233;sentation PowerPoint.",
+        "Une production 100% nain de Richard III de Shakespeare.",
+        "Une pyramide de t&#234;tes coup&#233;es.",
+        "Une quantit&#233; surprenante de cheveux.",
+        "Une queue plus grande, plus noire.",
+        "Une sc&#232;ne de cul dans Lance et compte.",
+        "Une solitude indescriptible.",
+        "Une surprise sal&#233;e.",
+        "Une torsion testiculaire.",
+        "Une tortue vicieuse qui te mord la bite.",
+        "Une tribu de femmes guerri&#232;res.",
+        "Une tumeur au cerveau.",
+        "Une vague imparable de fourmis de feu.",
+        "Une vie pleine de tristesse.",
+        "Venir dans une flaque de larmes d&#8217;enfants.",
+        "Violer les femmes et voler les chevaux.",
+        "Violer, puis piller.",
+        "Vivre son homosexualit&#233;.",
+        "Voler des b&#233;b&#233;s.",
+        "Volts divis&#233;s par Amp&#232;re.",
+        "Vomir mi-fellation.",
+        "Wikipedia.",
+        "World of Warcraft.",
+        "Xavier Dolan.",
+        "Yodler quand c&#8217;est pas le temps.",
+        "Youppi!"
+    ]
+}
