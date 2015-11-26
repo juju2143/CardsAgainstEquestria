@@ -14,18 +14,22 @@
             </div>
 
             <div class="col-xs-11" data-bind="if: !loading()">
-                <span class="todo">filtres/tri</span>
+                <label>
+                    <input type="checkbox" data-bind="checked: hidePassworded">
+                    Cacher les parties protégés par mot de passe
+                </label>
+                {{!-- TODO Filters/sort --}}
             </div>
         </div>
 
-        <div data-bind="if: games().length == 0 && !loading()">
+        <div data-bind="if: filteredGames().length == 0 && !loading()">
             <p>
                 Aucune partie trouvée ! <a href="/game/create">En créer une ?</a>
             </p>
         </div>
 
         <div class="row">
-            <div class="col-xs-6 game-list" data-bind="foreach: games">
+            <div class="col-xs-6 game-list" data-bind="foreach: filteredGames">
                 <div class="game">
                     <div class="left">
 
