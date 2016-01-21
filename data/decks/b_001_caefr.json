@@ -1,0 +1,370 @@
+{
+    "name": "Cards Against Equinity FR",
+    "description": "Traduction et adaptation par Trippy Tickles",
+    "watermark": "CaE",
+    "expansion": false,
+    "blackCards": [
+        {
+            "text": "______ a gagn&#233; l'award national d'Equestria pour ______!",
+            "pick": 2
+        },
+        {
+            "text": "______ est le meilleur poney.",
+            "pick": 1
+        },
+        {
+            "text": "______ devrait ______ ______.",
+            "pick": 3
+        },
+        {
+            "text": "______. C'est mon fantasme.",
+            "pick": 1
+        },
+        {
+            "text": "______? C'est le probl&#232;me du futur Spike.",
+            "pick": 1
+        },
+        {
+            "text": "Apr&#232;s une folle nuit de chasse, Applebloom a appris que ______ &#233;tait son talent sp&#233;cial.",
+            "pick": 1
+        },
+        {
+            "text": "Apr&#232;s une f&#234;te &#224; tout casser, Fluttershy s'est r&#233;veill&#233;e en trouvant ______ dans son lit.",
+            "pick": 1
+        },
+        {
+            "text": "Apr&#232;s une vie de plusieurs milliers d'ann&#233;es, C&#233;l&#233;stia ne trouve du plaisir que dans ______.",
+            "pick": 1
+        },
+        {
+            "text": "Alo&#233; et Lotus ont exp&#233;riment&#233; un traitement radical qui utilise les propri&#233;t&#233;s th&#233;rapeutiques du ______.",
+            "pick": 1
+        },
+        {
+            "text": "Et c'est comme &#231;a que Equestria a &#233;t&#233; fond&#233;!",
+            "pick": 1
+        },
+        {
+            "text": "Big Mac dort bruyamment quand ______ est avec lui.",
+            "pick": 1
+        },
+        {
+            "text": "ACHETEZ DU ______ !",
+            "pick": 1
+        },
+        {
+            "text": "CUTIE MARK CRUSADERS ; ______ ! YAY !",
+            "pick": 1
+        },
+        {
+            "text": "Daring Do et la qu&#234;te du ______.",
+            "pick": 1
+        },
+        {
+            "text": "Ch&#232;re Princesse C&#233;l&#233;stia, aujourd'hui j'ai appris une le&#231;on sur ______.",
+            "pick": 1
+        },
+        {
+            "text": "Contre toute attente, la cutie mark de Sweetie Belle fut ______.",
+            "pick": 1
+        },
+        {
+            "text": "Des chercheurs d'Equestria ont d&#233;couvert que ______ est le 7&#232;me &#201;l&#233;ment d'Harmonie.",
+            "pick": 1
+        },
+        {
+            "text": "Tous les matins, la Princesse C&#233;l&#233;stia fait lever ______.",
+            "pick": 1
+        },
+        {
+            "text": "Tout le monde fut choqu&#233; de d&#233;couvrir que la cutie mark de Scooraloo est ______.",
+            "pick": 1
+        },
+        {
+            "text": "Ris des ______!",
+            "pick": 1
+        },
+        {
+            "text": "Je me demandais ce qu'&#233;tait ______, mais avec moi vous l'avez tous partag&#233;e !",
+            "pick": 1
+        },
+        {
+            "text": "J'aimerais &#234;tre ______.",
+            "pick": 1
+        },
+        {
+            "text": "Dans un exc&#232;s de rage, la Princesse C&#233;l&#233;stia envoya ______ sur la ______ pour ______.",
+            "pick": 3
+        },
+        {
+            "text": "Dans une bataille mal&#233;fique, Discord transforma ______ en ______.",
+            "pick": 2
+        },
+        {
+            "text": "Dans un monde sans humains, les selles servent en fait &#224; ______.",
+            "pick": 1
+        },
+        {
+            "text": "Inexplicablement, la seule chose que les parasprites ne mang&#232;rent pas fut ______.",
+            "pick": 1
+        },
+        {
+            "text": "Il semblerait que le poney pr&#233;f&#233;r&#233; de Hitler &#233;tait ______.",
+            "pick": 1
+        },
+        {
+            "text": "C'est pas un rocher ! C'est ______ !",
+            "pick": 1
+        },
+        {
+            "text": "Lauren Faust fut choqu&#233;e de trouver ______ dans sa bo&#238;te aux lettres.",
+            "pick": 1
+        },
+        {
+            "text": "Luna n'aida pas dans la bataille contre Chrysalis car elle &#233;tait trop occup&#233;e &#224; ______.",
+            "pick": 1
+        },
+        {
+            "text": "Ma cutie mark serait ______.",
+            "pick": 1
+        },
+        {
+            "text": "Peu de gens savent que Tara Strong est aussi la voix de ______.",
+            "pick": 1
+        },
+        {
+            "text": "Rien ne fait plus sourire Pinkie que ______.",
+            "pick": 1
+        },
+        {
+            "text": "Il &#233;tait une fois, le pays d'Equestria &#233;tait dirig&#233; par ______ et ______.",
+            "pick": 2
+        },
+        {
+            "text": "Ponyville est largement c&#233;l&#232;bre pour ______.",
+            "pick": 1
+        },
+        {
+            "text": "Ponyville fut choqu&#233; de d&#233;couvrir ______ dans la cabane de Fluttershy.",
+            "pick": 1
+        },
+        {
+            "text": "La cutie mark du prince Blueblood repr&#233;sente ______.",
+            "pick": 1
+        },
+        {
+            "text": "Rainbow Dash a toujours voulu ______.",
+            "pick": 1
+        },
+        {
+            "text": "Rainbow Dash est le seul poney de tout Equestria qui peut ______.",
+            "pick": 1
+        },
+        {
+            "text": "Rainbow Dash s'est fait une bosse en se cognant contre ______.",
+            "pick": 1
+        },
+        {
+            "text": "Rarity a une ligne de v&#234;tements oubli&#233;e inspir&#233;e par ______.",
+            "pick": 1
+        },
+        {
+            "text": "Rarity &#233;tait supos&#233;e avoir une chanson sur ______, mais elle a &#233;t&#233; retir&#233;e.",
+            "pick": 1
+        },
+        {
+            "text": "La derni&#232;re robe de Rarity a &#233;t&#233; inspir&#233;e par ______.",
+            "pick": 1
+        },
+        {
+            "text": "Si le pouvoir des &#201;l&#233;ments de l'Harmonie &#233;choue, ______ sera le dernier recours.",
+            "pick": 1
+        },
+        {
+            "text": "Le Super Speedy ______ Squeezy 5000.",
+            "pick": 1
+        },
+        {
+            "text": "Croyez-le ou non, Canterlot a un mus&#233;e sur ______.",
+            "pick": 1
+        },
+        {
+            "text": "Les &#201;l&#233;ments de l'Harmonie devraient &#234;tre &#224; l'origine les &#201;l&#233;ments de ______.",
+            "pick": 1
+        },
+        {
+            "text": "La For&#234;t Everfree est pleine de ______.",
+            "pick": 1
+        },
+        {
+            "text": "L'hymne national d'Equestria est ______.",
+            "pick": 1
+        },
+        {
+            "text": "Le seul moyen de faire prendre un bain &#224; Opal, c'est avec ______.",
+            "pick": 1
+        },
+        {
+            "text": "La pire gaffe faite par la Princesse Cadance fut quand elle fit tomber amoureux ______ et ______.",
+            "pick": 2
+        },
+        {
+            "text": "&#192; cause de controverses, la Princesse C&#233;l&#233;stia rendit ______ ill&#233;gal.",
+            "pick": 1
+        },
+        {
+            "text": "Aujourd'hui, Mayor Mare a annonc&#233; sa position sur la campagne officielle de ______ et ______. Personne n'en parut surpris.",
+            "pick": 2
+        },
+        {
+            "text": "Twilight s'ennuyait de la magie de l'amiti&#233;, et a commenc&#233; &#224; &#233;tudier la magie de ______.",
+            "pick": 1
+        },
+        {
+            "text": "Twilight Sparkle poss&#232;de plus de livres sur ______ qu'elle ne voudrait l'admettre.",
+            "pick": 1
+        },
+        {
+            "text": "Quand Luna arriva sur la Lune, elle fut accueillie par ______.",
+            "pick": 1
+        },
+        {
+            "text": "Quand Spike est endormi, Twilight aime lire des livres sur ______.",
+            "pick": 1
+        },
+        {
+            "text": "Soudainement, Pinkie Pie se met &#224; chanter une chanson sur ______.",
+            "pick": 1
+        },
+        {
+            "text": "Vous &#234;tes un humain envoy&#233; &#224; Equestria! La premi&#232;re chose que vous recherchez est ______.",
+            "pick": 1
+        },
+        {
+            "text": "Zecora est connue pour savoir fournir ______ et ______.",
+            "pick": 2
+        }
+    ],
+    "whiteCards": [
+        "Une cutie mark.",
+        "Un sandwich &#224; la marguerite.",
+        "Un grille-pain d&#233;coratif.",
+        "Une bite g&#233;ante de cheval.",
+        "Un sabot dans le cul.",
+        "Un &#233;talon excit&#233;.",
+        "Un fantasme sur les humains.",
+        "Un fantasme sur les pots de confiture.",
+        "Un pot de confiture.",
+        "Une jument en chaleur.",
+        "Un habitant de Cloudsdale racialement pur.",
+        "Une selle sexy.",
+        "Un fantasme sur les chausettes.",
+        "Un Sonic Raingasme.",
+        "Un Sonic Rainnuke tactique.",
+        "Un arbre.",
+        "En fait en train de jouir dans Rainbow Dash.",
+        "Une guerre poney &#233;pique dans un futur distant.",
+        "Une Granny Smith &#233;norm&#233;ment excit&#233;e.",
+        "Un autre donut ! Avec suppl&#233;ment p&#233;pites !",
+        "Une r&#233;colte de pommes.",
+        "Applejack.",
+        "Conqu&#233;rir le cul de Fluttershy.",
+        "De la cuisine rat&#233;e.",
+        "Banni d'Equestria (Daily).",
+        "Pi&#233;g&#233; sur la Lune pour 1000 ans.",
+        "Le meilleur poney.",
+        "Big Macintosh.",
+        "BonBon.",
+        "Des livres.",
+        "Le sabot de C&#233;l&#233;stia.",
+        "Le harem g&#233;ant de poulains de C&#233;l&#233;stia.",
+        "Du cidre.",
+        "Des clopfics.",
+        "Se clopper.",
+        "Des poulains estropi&#233;s.",
+        "Les cupcakes.",
+        "La magie.",
+        "Une fanfiction sur Daring Do.",
+        "La magie noire.",
+        "Avoir du sexe de poney avec Bloomberg.",
+        "Une n&#233;crose de corne.",
+        "C&#226;liner un poney de mani&#232;re non-sexuelle.",
+        "Jappleack.",
+        "Le Joe's Donut Hole.",
+        "John Joseco.",
+        "Des lesbiennes.",
+        "Lyra Heartstrings.",
+        "Faire de la magie.",
+        "Spike adulte.",
+        "Manehattan.",
+        "La supr&#233;matie des juments.",
+        "Le donjon sexuel de Molestia.",
+        "Mon OC.",
+        "Nightmare Moon.",
+        "Octavia.",
+        "Des poulains orphelins.",
+        "Des pantalons.",
+        "Des ailes athrophi&#233;es de p&#233;gases.",
+        "Pinkamena Diane Pie.",
+        "Lan tro&#231;onneuse de Pinkamena.",
+        "Pinkie Pie en combi int&#233;grale de latex.",
+        "Pinkie Pie.",
+        "L'arri&#232;re-train.",
+        "Les fleurs bleues.",
+        "Les poneys qui s'habillent.",
+        "Des poneys avec des putains de rayons lasers attach&#233;s &#224; leur t&#234;tes !",
+        "Les poneys.",
+        "Le racisme poney.",
+        "Les marriages poney-griffon.",
+        "Ponychan.",
+        "La Princesse C&#233;l&#233;stia.",
+        "La Princesse Luna.",
+        "La Princesse Mi Amore Cadenza.",
+        "La Princesse Molestia.",
+        "La reine Chrysalis.",
+        "Des wingboners enrag&#233;s.",
+        "Rainbow Crash.",
+        "Rainbow Dash.",
+        "Rarity.",
+        "Scoot, Scoot-A-Loo.",
+        "Apple Bloom.",
+        "&#201;tait un changelin durant tout ce temps.",
+        "Secouer l'arri&#232;re-train.",
+        "Le shipping.",
+        "Du clop mou.",
+        "Parler avec classe.",
+        "La compr&#233;hension de Spike sur la biologie.",
+        "Steven Magnet.",
+        "&#201;tirer les fessiers.",
+        "Surprise.",
+        "La chatte vierge en marshmallow de Sweetie Belle.",
+        "Sweetie Belle.",
+        "Sweetie Bot.",
+        "Cette peluche de Lyra.",
+        "Ce son qui fait *uiiii*.",
+        "Les Cakes.",
+        "Le Chocolate Mousse Moose.",
+        "Le Friendship Express.",
+        "Le Grand Galloping Gala.",
+        "La Grande et Puissante Trixie Lulamoon.",
+        "La Lune.",
+        "La race sup&#233;rieure des p&#233;gases.",
+        "L'usine d'arc-en-ciels.",
+        "LA VOIX ROYALE DE CANTERLOT.",
+        "Twilight Sparkle.",
+        "Les livres de clop secrets de Twilight.",
+        "Photo Finish.",
+        "Deux pouliches qui chient dans un seau.",
+        "Les privil&#232;ges des licornes.",
+        "Vinyl Scratch \/ DJ Pon-3.",
+        "Fouetter les esclaves terrestres.",
+        "Cheese Sandwich.",
+        "Le Winter Wrap Up.",
+        "Wolfieshy.",
+        "Le pire poney.",
+        "Le labo d'amphets de Zecora.",
+        "Flutterbat.",
+        "Les Power Ponies.",
+        "Tirek."
+    ]
+}
